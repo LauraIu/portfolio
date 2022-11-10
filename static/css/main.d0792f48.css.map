@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.d0792f48.css","mappings":"AAAA,KACE,qBAAsB,CAGpB,8BAAkC,CAFlC,QAAS,CACT,SAEJ,CCLA,KACE,aAEF","sources":["index.css","App.css"],"sourcesContent":["body {\n  box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n    font-family: 'Poppins', sans-serif;\n}\n\n",".App {\n  color: #728775;\n \n}\n\n\n\n\n"],"names":[],"sourceRoot":""}
