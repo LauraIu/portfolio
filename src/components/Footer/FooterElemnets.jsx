@@ -58,7 +58,6 @@ export const FooterContactLink = styled(Link)`
   color: #010606;
   background: #e5b507;
   border: 1px solid #e5b507;
-
   border-radius: 2px;
 
   cursor: pointer;
@@ -69,6 +68,10 @@ export const FooterContactLink = styled(Link)`
     color: #728775;
     background: transparent;
     border: 1px solid #728775;
+  }
+
+  @media and screen (max-width: 480px){ 
+    font-size: 12px;
   }
 `;
 

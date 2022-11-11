@@ -16,7 +16,6 @@ export const Button = styled(Link)`
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
-  
 
   &:hover {
     transition: all 0.2s ease-in-out;
@@ -36,7 +35,8 @@ export const ButtonToUrl = styled.button`
   text-decoration: none;
   outline: none;
   /* border: none; */
-  border: ${({ primary }) => (primary ? "1px solid #010606" : "1px solid #728775")};
+  border: ${({ primary }) =>
+    primary ? "1px solid #010606" : "1px solid #728775"};
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -44,16 +44,16 @@ export const ButtonToUrl = styled.button`
   transition: all 0.2s ease-in-out;
 
   @media screen and (max-width: 480px) {
+    font-size: 14px;
     margin-bottom: 16px;
-    
-    /* button text wrap */
     white-space: normal;
   }
 
   &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "#e5b507" : "#728775")};
-    border: ${({ primary }) => (primary ? "1px solid #e5b507" : "1px solid #728775")};
+    border: ${({ primary }) =>
+      primary ? "1px solid #e5b507" : "1px solid #728775"};
   }
 `;
 
@@ -74,8 +74,8 @@ export const ButtonToCv = styled.button`
   transition: all 0.2s ease-in-out;
 
   @media screen and (max-width: 480px) {
+    font-size: 14px;
     margin-bottom: 16px;
- 
     white-space: normal;
   }
 
@@ -85,58 +85,3 @@ export const ButtonToCv = styled.button`
     border: 1px solid #010606;
   }
 `;
-
-
-
-
-// import styled from "styled-components";
-// import { Link } from "react-scroll";
-
-// export const Button = styled(Link)`
-//   border-radius: 50px;
-//   background: ${({ primary }) => (primary ? "#0fc7db" : "#010606")};
-//   white-space: nowrap;
-//   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-//   color: ${({ dark }) => (dark ? "#010606" : "#f9f9f9")};
-//   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
-//   text-decoration: none;
-//   outline: none;
-//   border: none;
-//   cursor: pointer;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   transition: all 0.2s ease-in-out;
-
-//   &:hover {
-//     transition: all 0.2s ease-in-out;
-//     background: ${({ primary }) => (primary ? "#f9f9f9" : "#0fc7db")};
-//   }
-// `;
-
-// export const ButtonToUrl = styled.button`
-//   border-radius: 50px;
-//   background: ${({ primary }) => (primary ? "#0fc7db" : "#010606")};
-//   white-space: nowrap;
-//   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
-//   margin-right: 16px;
-//   color: ${({ dark }) => (dark ? "#010606" : "#f9f9f9")};
-//   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
-//   text-decoration: none;
-//   outline: none;
-//   border: none;
-//   cursor: pointer;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   transition: all 0.2s ease-in-out;
-
-//   @media screen and (max-width: 480px) {
-//     margin-bottom: 16px;
-//   }
-
-//   &:hover {
-//     transition: all 0.2s ease-in-out;
-//     background: ${({ primary }) => (primary ? "#f9f9f9" : "#0fc7db")};
-//   }
-// `;

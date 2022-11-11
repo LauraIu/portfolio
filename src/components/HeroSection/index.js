@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Video from "../../videos/video_07_small.mp4";
-import { Button } from "../ButtonElements";
 import {
   HeroContainer,
   HeroBackground,
@@ -9,6 +8,7 @@ import {
   HeroTitle,
   HeroP,
   HeroBtnWrapper,
+  HeroBtnLink, 
   ArrowForward,
   ArrowRight,
 } from "./HeroElements";
@@ -32,8 +32,8 @@ const HeroSection = () => {
           working for or with You! {" "}
         </HeroP>
         <HeroBtnWrapper>
-          <Button 
-            to="about"
+          <HeroBtnLink 
+            to="#about"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
@@ -46,7 +46,7 @@ const HeroSection = () => {
             offset={-30}
           >
             Get to know me better {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          </HeroBtnLink>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

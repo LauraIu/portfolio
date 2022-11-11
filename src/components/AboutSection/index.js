@@ -8,8 +8,9 @@ import {
   Column2,
   AboutWrapper,
   AboutRow,
-  TextWrapper,
   TopLine,
+  TextWrapper,
+  TextWrapper2,
   AboutHeading,
   AboutSubtitle,
   Link,
@@ -91,7 +92,7 @@ const AboutSection = ({
                 <Img src={img} alt={alt} />
               </ImgWrap>
               <br />
-              <TextWrapper style={{ paddingLeft: "30px" }}>
+              <TextWrapper2>
                 <TopLine
                   // style={{color: "#010606" }}
                   lightText={lightText}
@@ -119,7 +120,7 @@ const AboutSection = ({
                     <MdOpenInNew />
                   </ButtonToCv>
                 </BtnWrap>
-              </TextWrapper>
+              </TextWrapper2>
             </Column2>
           </AboutRow>
         </AboutWrapper>

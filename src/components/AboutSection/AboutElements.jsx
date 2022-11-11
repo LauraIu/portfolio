@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#728775")};
+  padding: 40px 0;
+
+  @media screen and (min-width: 1440px) {
+    padding: 40px 0 0 0;
+  }
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -11,29 +16,39 @@ export const Container = styled.div`
 
 export const AboutWrapper = styled.div`
   display: grid;
-  z-index: 1;
-  height: auto;
-  width: 100%;
-  max-width: 1100px;
-  margin: auto;
-  padding: 120px 24px 80px 24px;
   justify-content: center;
+  max-width: 1100px;
+  width: 100%;
+  height: 860px;
+  z-index: 1;
+  margin: auto;
+  padding: 8px 24px;
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
 `;
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
-
   /* border: 1px solid yellow; */
+
+  @media screen and (max-width: 480px) {
+    padding: 0;
+  }
 `;
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col2;
-
   /* border: 1px solid yellow; */
+
+  @media screen and (max-width: 480px) {
+    padding: 0;
+  }
 `;
 
 export const AboutRow = styled.div`
@@ -52,9 +67,16 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 0px;
-
-  /* border: 1px solid blue; */
 `;
+
+export const TextWrapper2 = styled.div`
+  max-width: 540px;
+  padding: 0 0 0 30px;
+
+  @media screen and (max-width: 400px) {
+    padding: 0;
+  }
+  `;
 
 export const TopLine = styled.p`
   color: #e5b507;
@@ -69,14 +91,14 @@ export const TopLine = styled.p`
 `;
 
 export const AboutHeading = styled.h1`
-  margin-bottom: 20px;
   font-size: 30px;
-  line-height: 1.1;
   font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 20px;
   color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#728775")};
 
-  @media screen and (max-width: 480px) {
-    font-size: 32px;
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
   }
 `;
 

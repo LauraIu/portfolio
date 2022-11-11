@@ -40,7 +40,9 @@ export const FormContent = styled.div`
   justify-content: flex-start;
 
   @media screen and (max-width: 480px) {
-    padding: 10px;
+    padding: 8px 10px;
+    height:auto;
+    max-height:850px;
   }
 `;
 
@@ -57,10 +59,8 @@ export const Form = styled.form`
   /* border: 1px solid #728775; */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
-  border: 1px solid yellow;
-
   @media screen and (max-width: 400px) {
-    padding: 24px 16px;
+    padding: auto 16px;
   }
 `;
 
@@ -99,7 +99,7 @@ export const FormInput = styled.input`
 
   @media screen and (max-width: 400px) {
     margin-bottom: 16px;
-    padding: 5px;
+    padding: 8px;
   }
 `;
 

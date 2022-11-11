@@ -6,11 +6,10 @@ import {
   SocialMediaDashboard,
   BookTable,
   InteractiveRatingComponent,
-  
 } from "../components/InfoSection/Data";
 import Navbar from "../components/Navbar";
 import AboutSection from "../components/AboutSection";
-import {About} from "../components/AboutSection/AboutData";
+import { About } from "../components/AboutSection/AboutData";
 import OtherStuff from "../components/OtherStuff";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
@@ -27,13 +26,12 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <AboutSection {...About}/>
+      <AboutSection {...About} />
       <InfoSection {...PortfolioPage} />
       <InfoSection {...BookTable} />
       <InfoSection {...SocialMediaDashboard} />
       <InfoSection {...InteractiveRatingComponent} />
       <OtherStuff />
-
       <Footer />
     </>
   );
