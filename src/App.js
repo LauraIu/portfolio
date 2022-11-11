@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+// import { Navigate } from "react-router-dom";
 import Home from "./pages/index.js";
 import ContactPage from "./pages/contact.js";
 import "./app.css";
@@ -18,6 +19,7 @@ function App() {
 
 export default App;
 
+
 function ErrorPage() {
   return (
     <div className="error-page">
@@ -26,6 +28,7 @@ function ErrorPage() {
       <hr />
       <p>
         <Link to="/">Go back to the home page</Link>
+        {/* <Navigate to="/" /> */}
       </p>
     </div>
   );

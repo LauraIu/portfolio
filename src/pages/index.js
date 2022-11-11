@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import {
@@ -7,11 +9,9 @@ import {
   BookTable,
   InteractiveRatingComponent,
 } from "../components/InfoSection/Data";
-import Navbar from "../components/Navbar";
 import AboutSection from "../components/AboutSection";
 import { About } from "../components/AboutSection/AboutData";
 import OtherStuff from "../components/OtherStuff";
-import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 
 const Home = () => {
