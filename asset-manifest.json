@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.882edc69.css",
-    "main.js": "/portfolio/static/js/main.e9a05b0a.js",
-    "static/media/video_07_small.mp4": "/portfolio/static/media/video_07_small.ee11f7663e57d204cf3f.mp4",
-    "static/media/portfolio_iula.png": "/portfolio/static/media/portfolio_iula.fb6665fe0eeac58e2895.png",
-    "static/media/Book_a_Table.png": "/portfolio/static/media/Book_a_Table.719b8f64b0c1e20b3733.png",
-    "static/media/OtherWorks_IuLa.png": "/portfolio/static/media/OtherWorks_IuLa.9074ab8812db13a17583.png",
-    "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.42d02be804d7d7a87217.png",
-    "static/media/webworks.png": "/portfolio/static/media/webworks.559b63bef90cc5989502.png",
-    "static/media/interactive_rating_component.png": "/portfolio/static/media/interactive_rating_component.4475322bf09060d43727.png",
-    "static/media/Social_Media_Dashboard_desktop1440w_dark_theme.png": "/portfolio/static/media/Social_Media_Dashboard_desktop1440w_dark_theme.47be929a170d13290256.png",
-    "index.html": "/portfolio/index.html",
-    "main.882edc69.css.map": "/portfolio/static/css/main.882edc69.css.map",
-    "main.e9a05b0a.js.map": "/portfolio/static/js/main.e9a05b0a.js.map"
+    "main.css": "/static/css/main.882edc69.css",
+    "main.js": "/static/js/main.16ae7f48.js",
+    "static/media/video_07_small.mp4": "/static/media/video_07_small.ee11f7663e57d204cf3f.mp4",
+    "static/media/portfolio_iula.png": "/static/media/portfolio_iula.fb6665fe0eeac58e2895.png",
+    "static/media/Book_a_Table.png": "/static/media/Book_a_Table.719b8f64b0c1e20b3733.png",
+    "static/media/OtherWorks_IuLa.png": "/static/media/OtherWorks_IuLa.9074ab8812db13a17583.png",
+    "static/media/Iuga_Laura_portrait_04.png": "/static/media/Iuga_Laura_portrait_04.42d02be804d7d7a87217.png",
+    "static/media/webworks.png": "/static/media/webworks.559b63bef90cc5989502.png",
+    "static/media/interactive_rating_component.png": "/static/media/interactive_rating_component.4475322bf09060d43727.png",
+    "static/media/Social_Media_Dashboard_desktop1440w_dark_theme.png": "/static/media/Social_Media_Dashboard_desktop1440w_dark_theme.47be929a170d13290256.png",
+    "index.html": "/index.html",
+    "main.882edc69.css.map": "/static/css/main.882edc69.css.map",
+    "main.16ae7f48.js.map": "/static/js/main.16ae7f48.js.map"
   },
   "entrypoints": [
     "static/css/main.882edc69.css",
-    "static/js/main.e9a05b0a.js"
+    "static/js/main.16ae7f48.js"
   ]
 }
