@@ -21,17 +21,14 @@ const Other = () => {
           <OtherCard>
             <OtherIcon src={webworks} />
             <OtherH2>Web and design works</OtherH2>
-            {/* <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP> */}
           </OtherCard>
           <OtherCard>
             <OtherIcon src={webworks} />
             <OtherH2>Art related projects</OtherH2>
-            {/* <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP> */}
           </OtherCard>
           <OtherCard>
             <OtherIcon src={OtherWorks_IuLa} />
             <OtherH2>Inbetween stuff</OtherH2>
-            {/* <OtherP>Jahh mffd kkfrhffms, nfjdhf, dhjdg ab ffhdjtr.</OtherP> */}
           </OtherCard>
         </OtherWrapper>
       </OtherContainer>

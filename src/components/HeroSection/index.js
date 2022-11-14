@@ -8,7 +8,7 @@ import {
   HeroTitle,
   HeroP,
   HeroBtnWrapper,
-  HeroBtnLink, 
+  HeroBtnLink,
   ArrowForward,
   ArrowRight,
 } from "./HeroElements";
@@ -28,20 +28,19 @@ const HeroSection = () => {
       <HeroContent>
         <HeroTitle>Hi there!</HeroTitle>
         <HeroP>
-          I am a Front-End Developer  open to explore new experiences
-          working for or with You! {" "}
+          I am a Front-End Developer open to explore new experiences working for
+          or with You!{" "}
         </HeroP>
         <HeroBtnWrapper>
-          <HeroBtnLink 
+          <HeroBtnLink
             to="#about"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
             dark="true"
-
-            smooth
+            smooth="true"
+            spy="true"
             duration={500}
-            spy
             exact="true"
             offset={-30}
           >

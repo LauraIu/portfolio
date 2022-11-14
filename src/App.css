@@ -28,17 +28,18 @@
 }
 
 .error-page a {
-  color: #728775;
+  color: #e5b507#728775;
   text-decoration: none;
 }
 
 .error-page a:hover {
-  color: #e5b507;
+  color: #728775;
+  text-decoration: underline;
 }
 
 hr {
-  width:290px;
-  border:none;
+  width: 290px;
+  border: none;
   border-top: 1px solid #728775;
   margin: 4px 0 16px 0;
 }

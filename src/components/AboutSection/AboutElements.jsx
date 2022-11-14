@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#728775")};
   padding: 40px 0;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { HashLink as Link } from "react-router-hash-link";
 
-export const FooterContainer = styled.div`
+export const FooterContainer = styled.footer`
   background-color: #010606;
 `;
 

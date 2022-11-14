@@ -19,7 +19,6 @@ function App() {
 
 export default App;
 
-
 function ErrorPage() {
   return (
     <div className="error-page">

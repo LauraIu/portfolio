@@ -55,7 +55,6 @@ const Navbar = ({ toggle }) => {
                 to="#about"
                 smooth
                 duration={500}
-               
                 exact="true"
                 offset={0}
               >
@@ -67,7 +66,6 @@ const Navbar = ({ toggle }) => {
                 to="#projects"
                 smooth
                 duration={500}
-               
                 exact="true"
                 offset={0}
               >
@@ -79,7 +77,6 @@ const Navbar = ({ toggle }) => {
                 to="#other"
                 smooth
                 duration={500}
-                
                 exact="true"
                 offset={0}
               >
@@ -88,7 +85,9 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                as="a" href="https://drive.google.com/file/d/15I9F8IkBgV1MccfbUQFCytKqvhkHgHrW/view?usp=sharing" target="_blank"
+                as="a"
+                href="https://drive.google.com/file/d/15I9F8IkBgV1MccfbUQFCytKqvhkHgHrW/view?usp=sharing"
+                target="_blank"
                 alt="Iuga Laura CV"
               >
                 CV

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
-export const Nav = styled.nav`
+export const Nav = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
