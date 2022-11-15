@@ -1,21 +1,21 @@
 {
-  "files": {
-    "main.css": "/portfolio/static/css/main.4802a165.css",
-    "main.js": "/portfolio/static/js/main.28de9295.js",
-    "static/media/video_07_small.mp4": "/portfolio/static/media/video_07_small.ee11f7663e57d204cf3f.mp4",
-    "static/media/portfolio_iula.png": "/portfolio/static/media/portfolio_iula.fb6665fe0eeac58e2895.png",
-    "static/media/Book_a_Table.png": "/portfolio/static/media/Book_a_Table.719b8f64b0c1e20b3733.png",
-    "static/media/OtherWorks_IuLa.png": "/portfolio/static/media/OtherWorks_IuLa.9074ab8812db13a17583.png",
-    "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.42d02be804d7d7a87217.png",
-    "static/media/webworks.png": "/portfolio/static/media/webworks.559b63bef90cc5989502.png",
-    "static/media/interactive_rating_component.png": "/portfolio/static/media/interactive_rating_component.4475322bf09060d43727.png",
-    "static/media/Social_Media_Dashboard_desktop1440w_dark_theme.png": "/portfolio/static/media/Social_Media_Dashboard_desktop1440w_dark_theme.47be929a170d13290256.png",
-    "index.html": "/portfolio/index.html",
-    "main.4802a165.css.map": "/portfolio/static/css/main.4802a165.css.map",
-    "main.28de9295.js.map": "/portfolio/static/js/main.28de9295.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.4802a165.css",
-    "static/js/main.28de9295.js"
-  ]
+  "main.css": "/portfolio/static/css/main.43dc7591.chunk.css",
+  "main.js": "/portfolio/static/js/main.dc5b0d5d.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.dc5b0d5d.chunk.js.map",
+  "static/js/1.89aedf01.chunk.js": "/portfolio/static/js/1.89aedf01.chunk.js",
+  "static/js/1.89aedf01.chunk.js.map": "/portfolio/static/js/1.89aedf01.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
+  "static/media/webworks.png": "/portfolio/static/media/webworks.fa85d41f.png",
+  "static/media/video_07_small.mp4": "/portfolio/static/media/video_07_small.95954d9d.mp4",
+  "static/media/OtherWorks_IuLa.png": "/portfolio/static/media/OtherWorks_IuLa.f2c7fa00.png",
+  "static/media/portfolio_iula.png": "/portfolio/static/media/portfolio_iula.e82c5e63.png",
+  "static/media/Book_a_Table.png": "/portfolio/static/media/Book_a_Table.7a5e5de6.png",
+  "static/media/Social_Media_Dashboard_desktop1440w_dark_theme.png": "/portfolio/static/media/Social_Media_Dashboard_desktop1440w_dark_theme.28b9145f.png",
+  "static/media/interactive_rating_component.png": "/portfolio/static/media/interactive_rating_component.2180a691.png",
+  "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.2201f2e2.png",
+  "static/css/main.43dc7591.chunk.css.map": "/portfolio/static/css/main.43dc7591.chunk.css.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.7aa6c642aa400a64dc31a429bcd1df4f.js": "/portfolio/precache-manifest.7aa6c642aa400a64dc31a429bcd1df4f.js",
+  "service-worker.js": "/portfolio/service-worker.js"
 }
