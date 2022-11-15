@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio/static/css/main.43dc7591.chunk.css",
-  "main.js": "/portfolio/static/js/main.dc5b0d5d.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.dc5b0d5d.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.a4e3288b.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.a4e3288b.chunk.js.map",
   "static/js/1.89aedf01.chunk.js": "/portfolio/static/js/1.89aedf01.chunk.js",
   "static/js/1.89aedf01.chunk.js.map": "/portfolio/static/js/1.89aedf01.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
@@ -16,6 +16,6 @@
   "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.2201f2e2.png",
   "static/css/main.43dc7591.chunk.css.map": "/portfolio/static/css/main.43dc7591.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.7aa6c642aa400a64dc31a429bcd1df4f.js": "/portfolio/precache-manifest.7aa6c642aa400a64dc31a429bcd1df4f.js",
+  "precache-manifest.9aebf498c2c78b79c1c697098936a8f4.js": "/portfolio/precache-manifest.9aebf498c2c78b79c1c697098936a8f4.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }

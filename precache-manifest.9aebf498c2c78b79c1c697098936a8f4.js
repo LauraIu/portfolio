@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dc5b0d5d30850b3a52a8",
+    "revision": "a4e3288b94d57ea3d3a8",
     "url": "/portfolio/static/css/main.43dc7591.chunk.css"
   },
   {
-    "revision": "dc5b0d5d30850b3a52a8",
-    "url": "/portfolio/static/js/main.dc5b0d5d.chunk.js"
+    "revision": "a4e3288b94d57ea3d3a8",
+    "url": "/portfolio/static/js/main.a4e3288b.chunk.js"
   },
   {
     "revision": "89aedf01a8d8d2f4c688",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Iuga_Laura_portrait_04.2201f2e2.png"
   },
   {
-    "revision": "920e0c3fb692d0bdefddfd6250941e4c",
+    "revision": "218e727dbbb28b95883d8da1ca4458e0",
     "url": "/portfolio/index.html"
   }
 ];
