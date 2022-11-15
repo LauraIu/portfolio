@@ -9,7 +9,7 @@ import "./app.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <App className="app"/>
+      <App id="root" className="app"/>
     </BrowserRouter>
   </React.StrictMode>
 );
