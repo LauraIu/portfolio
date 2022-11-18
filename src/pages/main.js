@@ -14,7 +14,7 @@ import { About } from "../components/AboutSection/AboutData";
 import OtherStuff from "../components/OtherStuff";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Main = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -39,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Main;

@@ -1,15 +1,16 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 // import { Navigate } from "react-router-dom";
-import Home from "./pages/index.js";
+import Main from "./pages/main.js";
 import ContactPage from "./pages/contact.js";
 
 function App() {
   return (
     <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route path="/contact" element={<ContactPage />} />
-      <Route path="*" element={<ErrorPage />} />
+      <Route path="/" element={<Main />}/>
+        <Route path=":contactId" element={<ContactPage />} />
+        <Route path="*" element={<ErrorPage />} />
+      
     </Routes>
   );
 }
