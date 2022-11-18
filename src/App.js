@@ -7,10 +7,9 @@ import ContactPage from "./pages/contact.js";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Main />}/>
-        <Route path=":contactId" element={<ContactPage />} />
-        <Route path="*" element={<ErrorPage />} />
-      
+      <Route path="/" element={<Main />} />
+      <Route path=":contactId" element={<ContactPage />} />
+      <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
 }
