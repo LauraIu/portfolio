@@ -1,13 +1,13 @@
 import * as React from "react";
-import { Routes, Route } from "react-router-dom";
-import { Navigate } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
+// import { Navigate } from "react-router-dom";
 import Home from "./pages/index.js";
 import ContactPage from "./pages/contact.js";
 
 function App() {
   return (
     <Routes>
-      <Route index element={<Home />} />
+      <Route exact path="/" element={<Home />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
@@ -23,8 +23,8 @@ function ErrorPage() {
       <h2>Something went wrong!</h2>
       <hr />
       <p>
-        {/* <Link to="/">Go back to the home page</Link> */}
-        <Navigate to="/" />
+        <Link to="/">Go back to the home page</Link>
+        {/* <Navigate to="/" /> */}
       </p>
     </div>
   );
