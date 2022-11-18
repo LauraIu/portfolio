@@ -1,14 +1,14 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 // import { Navigate } from "react-router-dom";
-import Main from "./pages/main.js";
+import Main from "./pages/main";
 import ContactPage from "./pages/contact.js";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Main />} />
-      <Route path="contact" element={<ContactPage />} />
+      <Route path="/contact" element={<ContactPage />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
