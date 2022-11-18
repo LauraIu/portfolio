@@ -22,7 +22,7 @@ const Main = () => {
   };
 
   return (
-    <>
+    <div id="main">
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       
@@ -35,7 +35,7 @@ const Main = () => {
         <OtherStuff />
       
       <Footer />
-    </>
+    </div>
   );
 };
 
