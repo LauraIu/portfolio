@@ -1,9 +1,9 @@
 {
   "main.css": "/portfolio/static/css/main.43dc7591.chunk.css",
-  "main.js": "/portfolio/static/js/main.86f47612.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.86f47612.chunk.js.map",
-  "static/js/1.bd9e500e.chunk.js": "/portfolio/static/js/1.bd9e500e.chunk.js",
-  "static/js/1.bd9e500e.chunk.js.map": "/portfolio/static/js/1.bd9e500e.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.a19e757e.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.a19e757e.chunk.js.map",
+  "static/js/1.07cff075.chunk.js": "/portfolio/static/js/1.07cff075.chunk.js",
+  "static/js/1.07cff075.chunk.js.map": "/portfolio/static/js/1.07cff075.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/webworks.png": "/portfolio/static/media/webworks.fa85d41f.png",
@@ -16,6 +16,6 @@
   "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.2201f2e2.png",
   "static/css/main.43dc7591.chunk.css.map": "/portfolio/static/css/main.43dc7591.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.50812927c8fd20e2a3937dcfb5ae0d45.js": "/portfolio/precache-manifest.50812927c8fd20e2a3937dcfb5ae0d45.js",
+  "precache-manifest.a970f151bbffef08f526b16c839af5bc.js": "/portfolio/precache-manifest.a970f151bbffef08f526b16c839af5bc.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
