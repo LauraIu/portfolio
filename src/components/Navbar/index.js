@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="#projects"
+                to="#project_04"
                 smooth
                 duration={500}
                 exact="true"

@@ -25,15 +25,15 @@ const Main = () => {
     <div id="main">
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      
-        <HeroSection />
-        <AboutSection {...About} />
-        <InfoSection {...PortfolioPage} />
-        <InfoSection {...BookTable} />
-        <InfoSection {...SocialMediaDashboard} />
-        <InfoSection {...InteractiveRatingComponent} />
-        <OtherStuff />
-      
+
+      <HeroSection />
+      <AboutSection {...About} />
+      <InfoSection {...PortfolioPage} />
+      <InfoSection {...BookTable} />
+      <InfoSection {...SocialMediaDashboard} />
+      <InfoSection {...InteractiveRatingComponent} />
+      <OtherStuff />
+
       <Footer />
     </div>
   );

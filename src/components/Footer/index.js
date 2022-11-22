@@ -37,7 +37,7 @@ const Footer = () => {
             About
           </FooterLink>
           <span>|</span>
-          <FooterLink to="#projects" smooth>
+          <FooterLink to="#project_04" smooth>
             DevProjects
           </FooterLink>
           <span>|</span>

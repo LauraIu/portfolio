@@ -4,7 +4,9 @@
 // To do - Json-escape or Json stringify or dangerouslysetinnerhtml!!!?
 
 export const PortfolioPage = {
-  id: "projects",
+  id: "project_04",
+  toLink: "#project_03",
+  forwardLinkText:"Next project",
   lightBg: true,
   lightText: false,
   lightTextDescription: false,
@@ -27,7 +29,9 @@ export const PortfolioPage = {
 };
 
 export const BookTable = {
-  id: "projects2",
+  id: "project_03",
+  toLink: "#project_02",
+  forwardLinkText:"Next project",
   lightBg: false,
   lightText: true,
   lightTextDescription: true,
@@ -50,7 +54,9 @@ export const BookTable = {
 };
 
 export const SocialMediaDashboard = {
-  id: "projects",
+  id: "project_02",
+  toLink: "#project_01",
+  forwardLinkText:"Next project",
   lightBg: true,
   lightText: false,
   lightTextDescription: false,
@@ -73,7 +79,9 @@ export const SocialMediaDashboard = {
 };
 
 export const InteractiveRatingComponent = {
-  id: "projects2",
+  id: "project_01",
+  toLink: "#home",
+  forwardLinkText:"Back to home",
   lightBg: false,
   lightText: true,
   lightTextDescription: true,

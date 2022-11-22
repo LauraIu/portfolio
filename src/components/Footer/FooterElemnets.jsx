@@ -70,7 +70,7 @@ export const FooterContactLink = styled(Link)`
     border: 1px solid #728775;
   }
 
-  @media and screen (max-width: 480px){ 
+  @media and screen (max-width: 480px) {
     font-size: 12px;
   }
 `;

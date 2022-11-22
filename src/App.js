@@ -7,8 +7,8 @@ import ContactPage from "./pages/contact.js";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Main />} />
-      <Route path="/contact" element={<ContactPage />} />
+      <Route exact path="/" element={<Main />} />
+      <Route exact path="/contact" element={<ContactPage />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
@@ -23,7 +23,7 @@ function ErrorPage() {
       <h2>Something went wrong!</h2>
       <hr />
       <p>
-        <Link to="/">Go back to the home page</Link>
+        <Link to="/portfolio">Go back to the home page</Link>
         {/* <Navigate to="/" /> */}
       </p>
     </div>

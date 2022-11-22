@@ -1,6 +1,7 @@
 import React from "react";
 import { ButtonToUrl } from "../ButtonElements";
 import { MdOpenInNew } from "react-icons/md";
+import { FaArrowAltCircleDown } from "react-icons/fa";
 
 import {
   Container,
@@ -12,15 +13,19 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  Link,
+  TextLink,
   BtnWrap,
   ImgWrap,
   Img,
+  NextProjectLinkWrapper,
+  NextProjectLink,
 } from "./InfoElements";
 
 const InfoSection = ({
   lightBg,
   id,
+  toLink,
+  forwardLinkText,
   imgStart,
   topLine,
   lightText,
@@ -50,14 +55,14 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>
                   {description}
-                  <Link
+                  <TextLink
                     href={urlLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     dark={dark ? 1 : 0}
                   >
                     {linkText}
-                  </Link>
+                  </TextLink>
                   {description2}
                 </Subtitle>
 
@@ -93,6 +98,11 @@ const InfoSection = ({
                 <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
+            <NextProjectLinkWrapper>
+            <NextProjectLink to={toLink} smooth>
+              
+              <FaArrowAltCircleDown />&#160;{forwardLinkText} 
+            </NextProjectLink></NextProjectLinkWrapper>
           </InfoRow>
         </InfoWrapper>
       </Container>
@@ -101,3 +111,4 @@ const InfoSection = ({
 };
 
 export default InfoSection;
+

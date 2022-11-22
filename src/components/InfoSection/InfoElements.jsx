@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { HashLink as Link } from "react-router-hash-link";
 
 export const Container = styled.section`
   color: #fff;
@@ -14,10 +15,11 @@ export const InfoWrapper = styled.div`
   justify-content: center;
   max-width: 1100px;
   width: 100%;
-  height: 860px;
+  height: 800px;
   z-index: 1;
   margin: auto;
   padding: 8px 24px;
+  /* border: 1px solid blue; */
 
   @media screen and (max-width: 768px) {
     height: auto;
@@ -29,7 +31,7 @@ export const Column1 = styled.div`
   padding: 0 15px;
   grid-area: col1;
   /* border: 1px solid yellow; */
-  
+
   @media screen and (max-width: 480px) {
     padding: 0;
   }
@@ -108,7 +110,7 @@ export const Subtitle = styled.p`
   }
 `;
 
-export const Link = styled.a`
+export const TextLink = styled.a`
   color: ${({ darkText }) => (darkText ? "#010606" : "#010606")};
 
   &:hover {
@@ -145,5 +147,35 @@ export const Img = styled.img`
 
   @media screen and (max-width: 480px) {
     padding-top: 0;
+  }
+`;
+
+//arrow link to next project
+export const NextProjectLinkWrapper = styled.div`
+  position: absolute;
+  margin-top: 420px;
+  margin-left: 1rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 700px;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-left: 0.2rem;
+    margin-top: 720px;
+  }
+`;
+
+export const NextProjectLink = styled(Link)`
+  display: flex;
+  color: #010606;
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 14px;
+
+  &:hover {
+    color: #e5b507;
+    transition: 0.3s ease-out;
   }
 `;
