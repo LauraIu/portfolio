@@ -25,7 +25,7 @@ export const About = {
   imgStart: false,
   img: require("../../images/Iuga_Laura_portrait_04.png"),
   alt: "IuLa_profil.png",
-  cvUrl: new URL("https://drive.google.com/file/d/1gjv0SxTNjn4MBQPVQN4hXT9qtrj9xSqn/view?usp=sharing"),
+  cvUrl: new URL(""),
   // urlLink: "/contact",
   // // projectUrl2: new URL("mailto:iuga.laura.katalin@gmail.com"),
 };
