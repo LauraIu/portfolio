@@ -60,7 +60,7 @@ const ContactComponent = () => {
               id="form-input-control-last-name"
               name="user_name"
               placeholder="Name…"
-              style={{ color: "#728775" }}
+              style={{ "color": "#728775" }}
               required
               icon="user circle"
               iconPosition="left"

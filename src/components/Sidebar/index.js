@@ -29,7 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink
             as="a"
-            href="https://drive.google.com/file/d/1gjv0SxTNjn4MBQPVQN4hXT9qtrj9xSqn/view?usp=sharing"
+            href="static/media/IugaLAURA_FrontendUI_CV.61521d8d.pdf"
             target="_blank"
             alt="Iuga Laura CV"
             onClick={toggle}

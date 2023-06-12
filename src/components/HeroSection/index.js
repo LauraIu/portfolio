@@ -28,8 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroTitle>Hi there!</HeroTitle>
         <HeroP>
-          I am a Front-End Developer open to explore new experiences working for
-          or with You!{" "}
+        I am a front-end developer open to gain new experiences working for, or with you!{" "}
         </HeroP>
         <HeroBtnWrapper>
           <HeroBtnLink

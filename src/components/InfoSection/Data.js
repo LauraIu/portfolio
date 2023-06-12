@@ -1,8 +1,3 @@
-// https://www.freeformatter.com/json-escape.html#before-output
-// https://www.knowledgehut.com/blog/web-development/react-dangerouslysetinnerhtml
-
-// To do - Json-escape or Json stringify or dangerouslysetinnerhtml!!!?
-
 export const PortfolioPage = {
   id: "project_04",
   toLink: "#project_03",
@@ -13,7 +8,7 @@ export const PortfolioPage = {
   topLine: "My Portfolio Page",
   headLine: "Landing portfolio page made from scratch",
   description:
-    "This is my first portfolio made with ReactJs like a Frontend developer (I have made others before, with pure HTML & CSS ages ago). So it was fun to design it, embarrassing to have issues with router and a bit with responsive layout, but finally I found it pretty cool ;-)",
+    "This is my first portfolio made with ReactJs like a Frontend developer (I have made others before, with pure HTML & CSS). So it was fun to design it and code it. It was also good experience to write it with styled components.",
 
   buttonLabel1: "View Github repo",
   buttonLabel2: "Plese, look around!",

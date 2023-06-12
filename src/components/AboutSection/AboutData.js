@@ -10,7 +10,7 @@ export const About = {
   // lightTextDescription: true,
   topLine: "Hi there!",
   headLine: "I'm Laura Iuga",
-  headLine2: "HTML5 | CSS3 | JavaScript | React | Github",
+  headLine2: "HTML5 | CSS3 | JavaScript | React | Github | Figma",
   topLine2: "My skills",
   
   urlLink: "https://codecool.com",
@@ -25,7 +25,10 @@ export const About = {
   imgStart: false,
   img: require("../../images/Iuga_Laura_portrait_04.png"),
   alt: "IuLa_profil.png",
-  cvUrl: new URL("https://drive.google.com/file/d/1YkirCdJ_2HbP3E9_DZaYA5-RyljgQlQ_/view?usp=sharing"),
+  cvUrl: (require ("../../IugaLAURA_FrontendUI_CV.pdf")),
   // urlLink: "/contact",
   // // projectUrl2: new URL("mailto:iuga.laura.katalin@gmail.com"),
+
+
+  // https://drive.google.com/file/d/1YkirCdJ_2HbP3E9_DZaYA5-RyljgQlQ_/view?usp=sharing
 };
