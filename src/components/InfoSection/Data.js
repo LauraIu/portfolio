@@ -30,9 +30,9 @@ export const CivilRadioArchive = {
   lightText: true,
   lightTextDescription: true,
   topLine: "The Civil Radio Archive Page (work in progress)",
-  headLine: "Searchable Audio Archive app's UI design & web development",
+  headLine: "Radio Archive app's UI design & web development",
   description:
-    "Contributing in the Radioship's on going Open-Source Project for Speech-to-Text and Searchable Audio Archive. Working on the implementation of the Civil Radio Archive web app from concept. Designed the app's UI in Figma, developed with React, NextJs, used Tailwid, Typescript.",
+    "I contribute to Radioship's ongoing open source project on speech-to-text and searchable sound archives. I'm co-working on the implementation of the Civil Radio Archive web application. I designed the user interface in Figma and got involved in the development using React, NextJs, Tailwid and Typescript.",
 
   buttonLabel1: "View Figma prototype",
   buttonLabel2: "The project on Github",
