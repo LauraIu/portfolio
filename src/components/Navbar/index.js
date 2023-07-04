@@ -63,7 +63,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="#project_04"
+                to="#project_06"
                 smooth
                 duration={500}
                 exact="true"
@@ -86,7 +86,7 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks
                 as="a"
-                href="static/media/IugaLAURA_FrontendUI_CV.61521d8d.pdf"
+                href="/static/media/IugaLAURA_FrontendUI_CV.917be14c.pdf"
                 require
                 target="_blank"
                 alt="Iuga Laura CV"

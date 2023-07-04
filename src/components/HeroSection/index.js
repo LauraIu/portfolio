@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Video from "../../videos/video_07_small.mp4";
+// import Video from "../../videos/video_07_small.mp4";
 import {
   HeroContainer,
   HeroBackground,
-  VideoBackground,
+  // VideoBackground,
   HeroContent,
   HeroTitle,
   HeroP,
@@ -23,12 +23,12 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBackground>
-        <VideoBackground autoPlay loop muted src={Video} type="video/mp4" />
+        {/* <VideoBackground autoPlay loop muted src={Video} type="video/mp4" /> */}
       </HeroBackground>
       <HeroContent>
         <HeroTitle>Hi there!</HeroTitle>
         <HeroP>
-        I am a front-end developer open to gain new experiences working for, or with you!{" "}
+        I am a front-end developer open to gaining new experiences and working for or with you. Allow me to introduce myself and showcase my skills and projects.{" "}
         </HeroP>
         <HeroBtnWrapper>
           <HeroBtnLink
@@ -41,7 +41,7 @@ const HeroSection = () => {
             spy="true"
             duration={500}
             exact="true"
-            offset={-30}
+            offset={30}
           >
             Get to know me better {hover ? <ArrowForward /> : <ArrowRight />}
           </HeroBtnLink>

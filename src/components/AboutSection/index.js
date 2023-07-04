@@ -27,15 +27,18 @@ const AboutSection = ({
   lightText,
   headLine,
   topLine2,
-  headLine2,
+  // headLine2,
+  description,
   darkText,
-  buttonLabel1,
+  // buttonLabel1,
+  buttonLabel2,
   urlLink,
   linkText,
   img,
   alt,
   dark,
-  cvUrl,
+  // cvUrl,
+  email,
 }) => {
   return (
     <>
@@ -47,19 +50,12 @@ const AboutSection = ({
                 <TopLine>{topLine}</TopLine>
                 <AboutHeading lightText={lightText}>{headLine}</AboutHeading>
                 <AboutSubtitle darkText={darkText}>
-                  I’m a career changer with web and graphic design, data
-                  management, and communication experience. I have an MA degree
-                  in Media Arts and before I worked in marketing, in archive
-                  digitization, made freelance websites and graphic designs,
-                  organized some little projects for my NGO.
+                  I have a background in web and graphic design, data management, and communication. I hold an MA degree in Media Arts and have previously worked in marketing, archive digitization, and as a freelance web and graphic designer. I have also organized small projects for my NGO.
                   <br />
                   <br />
-                  It was more than a year ago when I decided to change my
-                  work path and achieve specific knowledge in web development. So
-                  I made my big step.
+                  <strong>Transition:</strong>
                   <br />
-                  <br />
-                  After quitting my job I attended &#160;
+                  In 2021 I made the decision to change my career path and focus on web development. I took the initiative to attend&#160;
                   <Link
                     href={urlLink}
                     target="_blank"
@@ -68,23 +64,38 @@ const AboutSection = ({
                   >
                     {linkText}
                   </Link>
-                  's Junior Front-End course. Like I'm enthusiastic about
-                  "making things work" and have the desire to create amazing
-                  things from scratch, after all choosing the Front-End was more
-                  than evident for me.
+                  's Junior Front-End Deveoper course, where I gained specific knowledge in web development. I am enthusiastic about "making things work" and have a strong desire to create amazing experiences from scratch. Front-End development was a natural choice for me.
                   <br />
                   <br />
-                  There I have learned that building beautiful visual
-                  experiences and turning them into interactive ones is a very
-                  complex workflow. Since then I have had the perpetual feeling,
-                  that the more I understand, the more questions I have. Finally
-                  being devoted and decided helps me to make the magic happen.
+                  Please feel free to explore my portfolio and get a better understanding of my work. To learn more about my qualifications, please refer to my CV.
+                {/* </AboutSubtitle>
+                <BtnWrap>
+                  <ButtonToCv
+                    as="a"
+                    href={cvUrl}
+                    target="_blank"
+                    rel="noopener"
+                    >
+                    {buttonLabel1} &#160;
+                    <MdOpenInNew />
+                  </ButtonToCv>
+                </BtnWrap>
+                <AboutSubtitle> */}
                   <br />
                   <br />
-                  So here I am, ready for opportunities to become an efficient
-                  part of your team where I can start my developer career!
-                  Please feel free to find out more about me.
+                  Thank you for your time, and I look forward to discussing potential opportunities to contribute to your team and kickstart my developer career!
                 </AboutSubtitle>
+                <BtnWrap>
+                  <ButtonToCv
+                    as="a"
+                    href={email}
+                    target="_blank"
+                    rel="noopener"
+                    >
+                    {buttonLabel2} &#160;
+                    <MdOpenInNew />
+                  </ButtonToCv>
+                </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>
@@ -94,7 +105,7 @@ const AboutSection = ({
               <br />
               <TextWrapper2>
                 <TopLine
-                  // style={{color: "#010606" }}
+                  style={{ fontSize: "16px" }}
                   lightText={lightText}
                 >
                   {topLine2}
@@ -109,17 +120,33 @@ const AboutSection = ({
                   <br />
                   I'm patient, detail oriented and open minded, I guess ;-)
                 </p> */}
-                <AboutHeading
+                <p 
                   style={{
-                    fontSize: "18px",
+                    fontSize: "14px",
+                    color: "#010606",
+                    marginBottom: "36px",
+                  }}>
+                    <strong>Front-End Coding:</strong> HTML, CSS, JavaScript, Typescript.
+                    <br /><br />  
+                    <strong>Frameworks and technologies:</strong> ReactJs, NextJs, Styled-components, Tailwind, GitHub.
+                    <br /><br /> 
+                    <strong>Tools:</strong> VsCode, Adobe, Figma, Canva.
+                    <br /><br /> 
+                    <strong>Design Thinking:</strong> wireframing, problemsolving, visualising ideas.
+                    <br /><br />  
+                    <strong>Soft skills:</strong> Strong communication and collaboration skills, empathy and critical thinking.
+                </p>
+                {/* <AboutHeading
+                  style={{
+                    fontSize: "14px",
                     color: "#f8f8f8",
                     marginBottom: "36px",
                   }}
                 >
-                  {headLine2}
-                </AboutHeading>
+                  {headLine2}<br />  
+                </AboutHeading> */}
 
-                <BtnWrap>
+                {/* <BtnWrap>
                   <ButtonToCv
                     as="a"
                     href={cvUrl}
@@ -129,7 +156,7 @@ const AboutSection = ({
                     {buttonLabel1} &#160;
                     <MdOpenInNew />
                   </ButtonToCv>
-                </BtnWrap>
+                </BtnWrap> */}
               </TextWrapper2>
             </Column2>
           </AboutRow>

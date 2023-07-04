@@ -3,7 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 export const Container = styled.section`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#728775")};
+  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#487c6c")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -87,7 +87,7 @@ export const Heading = styled.h1`
   font-weight: 600;
   line-height: 1.1;
   margin-bottom: 24px;
-  color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#728775")};
+  color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#487c6c")};
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -97,7 +97,7 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#010606")};
 
@@ -111,8 +111,8 @@ export const Subtitle = styled.p`
 `;
 
 export const TextLink = styled.a`
-  color: ${({ darkText }) => (darkText ? "#010606" : "#010606")};
-
+  color: ${({ darkText }) => (darkText ? "#010606" : "#010606")}; 
+  
   &:hover {
     background-color: #e5b507;
     padding: 0 1px;

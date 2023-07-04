@@ -21,7 +21,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="#about" smooth onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="#project_04" smooth onClick={toggle}>
+          <SidebarLink to="#project_06" smooth onClick={toggle}>
             DevProjects
           </SidebarLink>
           <SidebarLink to="#other" smooth onClick={toggle}>
@@ -29,7 +29,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink
             as="a"
-            href="static/media/IugaLAURA_FrontendUI_CV.61521d8d.pdf"
+            href="/static/media/IugaLAURA_FrontendUI_CV.917be14c.pdf"
             target="_blank"
             alt="Iuga Laura CV"
             onClick={toggle}

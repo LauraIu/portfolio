@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import {
+  CivilRadioArchive,
+  AcaciaHostel,
   PortfolioPage,
   SocialMediaDashboard,
   BookTable,
@@ -28,6 +30,8 @@ const Main = () => {
 
       <HeroSection />
       <AboutSection {...About} />
+      <InfoSection {...AcaciaHostel}/>
+      <InfoSection {...CivilRadioArchive} />
       <InfoSection {...PortfolioPage} />
       <InfoSection {...BookTable} />
       <InfoSection {...SocialMediaDashboard} />

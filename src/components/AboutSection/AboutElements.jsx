@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#728775")};
+  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#487c6c")};
   padding: 40px 0;
 
   @media screen and (min-width: 1440px) {
@@ -19,7 +19,7 @@ export const AboutWrapper = styled.div`
   justify-content: center;
   max-width: 1100px;
   width: 100%;
-  height: 860px;
+  height: auto;
   z-index: 1;
   margin: auto;
   padding: 8px 24px;
@@ -31,7 +31,7 @@ export const AboutWrapper = styled.div`
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
-  padding: 0 15px;
+  padding: 40px 15px 0 15px;
   grid-area: col1;
   /* border: 1px solid yellow; */
 
@@ -42,7 +42,7 @@ export const Column1 = styled.div`
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
-  padding: 0 15px;
+  padding: 40px 15px 0 15px;
   grid-area: col2;
   /* border: 1px solid yellow; */
 
@@ -95,7 +95,7 @@ export const AboutHeading = styled.h1`
   font-weight: 600;
   line-height: 1.1;
   margin-bottom: 20px;
-  color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#728775")};
+  color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#487c6c")};
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -104,8 +104,8 @@ export const AboutHeading = styled.h1`
 
 export const AboutSubtitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
-  font-size: 14px;
+  margin-bottom: 25px;
+  font-size: 16px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#010606")};
 `;

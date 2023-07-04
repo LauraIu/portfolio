@@ -19,7 +19,7 @@ export const Button = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#e5b507" : "#728775")};
+    background: ${({ primary }) => (primary ? "#e5b507" : "#5f9b89")};
     color: #010606;
   }
 `;
@@ -36,7 +36,7 @@ export const ButtonToUrl = styled.button`
   outline: none;
   /* border: none; */
   border: ${({ primary }) =>
-    primary ? "1px solid #010606" : "1px solid #728775"};
+    primary ? "1px solid #010606" : "1px solid #5f9b89"};
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -51,9 +51,9 @@ export const ButtonToUrl = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#e5b507" : "#728775")};
+    background: ${({ primary }) => (primary ? "#e5b507" : "#5f9b89")};
     border: ${({ primary }) =>
-      primary ? "1px solid #e5b507" : "1px solid #728775"};
+      primary ? "1px solid #e5b507" : "1px solid #5f9b89"};
   }
 `;
 
@@ -81,7 +81,7 @@ export const ButtonToCv = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #728775;
+    background: #487c6c;
     border: 1px solid #010606;
   }
 `;

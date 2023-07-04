@@ -37,7 +37,7 @@ const Footer = () => {
             About
           </FooterLink>
           <span>|</span>
-          <FooterLink to="#project_04" smooth>
+          <FooterLink to="#project_06" smooth>
             DevProjects
           </FooterLink>
           <span>|</span>
@@ -47,7 +47,7 @@ const Footer = () => {
           <span>|</span>
           <FooterLink 
           as="a"
-          href="static/media/IugaLAURA_FrontendUI_CV.61521d8d.pdf"
+          href="/static/media/IugaLAURA_FrontendUI_CV.917be14c.pdf"
           target="_blank" 
           alt="Iuga Laura CV">
             CV

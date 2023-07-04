@@ -11,7 +11,7 @@ export const ContactContainer = styled.div`
   left: 0;
   z-index: 0;
   overflow: hidden;
-  background: #728775;
+  background: #487c6c;
 `;
 
 export const FormWrap = styled.div`
@@ -86,7 +86,7 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 2px;
-  border: 1px solid #728775;
+  border: 1px solid #487c6c;
   background-color: #f8f8f8;
   caret-color: #e5b507;
 
@@ -111,7 +111,7 @@ export const FormTextarea = styled.textarea`
   padding: 10px;
   margin-bottom: 32px;
   border-radius: 2px;
-  border: 1px solid #728775;
+  border: 1px solid #487c6c;
   box-sizing: border-box;
   resize: none;
   cursor: text;

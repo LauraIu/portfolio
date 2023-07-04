@@ -1,7 +1,7 @@
 import React from "react";
 import { ButtonToUrl } from "../ButtonElements";
 import { MdOpenInNew } from "react-icons/md";
-import { FaArrowAltCircleDown } from "react-icons/fa";
+// import { FaArrowAltCircleDown } from "react-icons/fa";
 
 import {
   Container,
@@ -17,15 +17,15 @@ import {
   BtnWrap,
   ImgWrap,
   Img,
-  NextProjectLinkWrapper,
-  NextProjectLink,
+  // NextProjectLinkWrapper,
+  // NextProjectLink,
 } from "./InfoElements";
 
 const InfoSection = ({
   lightBg,
   id,
-  toLink,
-  forwardLinkText,
+  // toLink,
+  // forwardLinkText,
   imgStart,
   topLine,
   lightText,
@@ -34,7 +34,7 @@ const InfoSection = ({
   description,
   description2,
   buttonLabel1,
-  buttonLabel2,
+  // buttonLabel2,
   urlLink,
   linkText,
   img,
@@ -42,7 +42,7 @@ const InfoSection = ({
   dark,
   primary,
   projectUrl1,
-  projectUrl2,
+  // projectUrl2,
 }) => {
   return (
     <>
@@ -69,16 +69,16 @@ const InfoSection = ({
                 <BtnWrap>
                   <ButtonToUrl
                     as="a"
-                    href={projectUrl1}
+                    href={ projectUrl1 }
                     target="_blank"
                     rel="noopener"
                     primary={primary ? 1 : 0}
-                    dark={dark ? 1 : 0}
+                    dark={dark ? 1 : 0}  
                   >
                     {buttonLabel1} &#160;
-                    <MdOpenInNew />
+                    <MdOpenInNew/>
                   </ButtonToUrl>
-                  <ButtonToUrl
+                  {/* <ButtonToUrl
                     as="a"
                     href={projectUrl2}
                     target="_blank"
@@ -87,9 +87,10 @@ const InfoSection = ({
                     dark={dark ? 1 : 0}
                     alt={alt}
                   >
-                    {buttonLabel2} &#160;
-                    <MdOpenInNew />
-                  </ButtonToUrl>
+                    {buttonLabel2} &#160; 
+                    <MdOpenInNew/>
+                  </ButtonToUrl> */}
+                  {/* TODO: Put back the button if the github links are needed */}
                 </BtnWrap>
               </TextWrapper>
             </Column1>
@@ -98,11 +99,12 @@ const InfoSection = ({
                 <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
-            <NextProjectLinkWrapper>
-            <NextProjectLink to={toLink} smooth>
-              
-              <FaArrowAltCircleDown />&#160;{forwardLinkText} 
-            </NextProjectLink></NextProjectLinkWrapper>
+            {/* <NextProjectLinkWrapper>
+              <NextProjectLink to={toLink} smooth>
+                
+                <FaArrowAltCircleDown />&#160;{forwardLinkText} 
+              </NextProjectLink>
+            </NextProjectLinkWrapper> */}
           </InfoRow>
         </InfoWrapper>
       </Container>

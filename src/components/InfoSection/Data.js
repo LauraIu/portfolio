@@ -1,3 +1,53 @@
+export const AcaciaHostel = {
+  id: "project_06",
+  toLink: "#project_05",
+  forwardLinkText:"Next project",
+  lightBg: true,
+  lightText: false,
+  lightTextDescription: false,
+  topLine: "Acacia Hostel webpage",
+  headLine: "Hostel booking web application",
+  description:
+    "Co-worked on the Acacia Hostel's responsive web application. Implemented optimal layouts for diverse screens, fixed layouts, handled scrolling.",
+  buttonLabel1: "View online",
+  
+  dark: false,
+  primary: false,
+  darkText: true,
+
+  imgStart: true,
+  img: require("../../images/acacia_hostel.png"),
+  alt: "Acacia Hostel webpage",
+  projectUrl1: new URL("https://www.acacia-hostel.com/"),
+  projectUrl2: "",
+};
+
+export const CivilRadioArchive = {
+  id: "project_05",
+  toLink: "#project_04",
+  forwardLinkText:"Next project",
+  lightBg: false,
+  lightText: true,
+  lightTextDescription: true,
+  topLine: "The Civil Radio Archive Page (work in progress)",
+  headLine: "Searchable Audio Archive app's UI design & web development",
+  description:
+    "Contributing in the Radioship's on going Open-Source Project for Speech-to-Text and Searchable Audio Archive. Working on the implementation of the Civil Radio Archive web app from concept. Designed the app's UI in Figma, developed with React, NextJs, used Tailwid, Typescript.",
+
+  buttonLabel1: "View Figma prototype",
+  buttonLabel2: "The project on Github",
+  dark: true,
+  primary: true,
+  darkText: false,
+
+  imgStart: false,
+  img: require("../../images/civil_radio_archivum.png"),
+  alt: "The Civil Radio Archive Page",
+  projectUrl1: new URL("https://www.figma.com/proto/Toh7HoOPWO4u8NMvZwApXD/CivilRadioArchive_IuLa_23_version_03?page-id=38%3A365&type=design&node-id=210-186&viewport=-12229%2C595%2C1&t=Etua9H5oz3zWWLBP-8&scaling=scale-down-width&starting-point-node-id=408%3A6647&hide-ui=1"),
+  // projectUrl2: new URL("https://civil-archive-ui-template.vercel.app/...."),
+  projectUrl2: new URL ("https://github.com/Koffair")
+};
+
 export const PortfolioPage = {
   id: "project_04",
   toLink: "#project_03",
@@ -6,9 +56,9 @@ export const PortfolioPage = {
   lightText: false,
   lightTextDescription: false,
   topLine: "My Portfolio Page",
-  headLine: "Landing portfolio page made from scratch",
+  headLine: "Portfolio page made from scratch, design & code",
   description:
-    "This is my first portfolio made with ReactJs like a Frontend developer (I have made others before, with pure HTML & CSS). So it was fun to design it and code it. It was also good experience to write it with styled components.",
+    "This is my first fully responsive portfolio developed useing ReactJs (I have made others years before, with pure HTML & CSS). Utilized styled components for a more modular approach.",
 
   buttonLabel1: "View Github repo",
   buttonLabel2: "Plese, look around!",
@@ -18,9 +68,9 @@ export const PortfolioPage = {
 
   imgStart: true,
   img: require("../../images/portfolio_iula.png"),
-  alt: "PortfolioPage IuLa",
-  projectUrl1: new URL("https://github.com/LauraIu/portfolio"),
+  alt: "Iuga Laura's Portfolio Page",
   projectUrl2: new URL("https://lauraiu.github.io/portfolio/"),
+  projectUrl1: new URL("https://github.com/LauraIu/portfolio"),
 };
 
 export const BookTable = {
@@ -31,12 +81,12 @@ export const BookTable = {
   lightText: true,
   lightTextDescription: true,
   topLine: "Book a Table",
-  headLine: "A Pizzeria's site with booking calendar",
+  headLine: "Pizzeria Website with Booking Calendar, design & code",
   description:
-    "This landing page buildt from scratch, it has a booking form where you can choose date and time to make your reservation. Besides designing it, it was a good practice to make the layout responsive with styled components. Also it was a challenge to handle the booking events, the DatePicker and the scrollings.",
+    "Landing page buildt from scratch, developed with ReactJs and created responsive layout using styled components. Implemented a booking form with date and time selection, handled booking events, DatePicker, and scrollings.",
 
-  buttonLabel1: "View Github repo",
-  buttonLabel2: "View online",
+  buttonLabel2: "View Github repo",
+  buttonLabel1: "View online",
   dark: true,
   primary: true,
   darkText: false,
@@ -44,8 +94,8 @@ export const BookTable = {
   imgStart: false,
   img: require("../../images/Book_a_Table.png"),
   alt: "Book a Table site",
-  projectUrl1: new URL("https://github.com/LauraIu/book-a-table"),
-  projectUrl2: new URL("https://lauraiu.github.io/book-a-table/"),
+  projectUrl2: new URL("https://github.com/LauraIu/book-a-table"),
+  projectUrl1: new URL("https://lauraiu.github.io/book-a-table/"),
 };
 
 export const SocialMediaDashboard = {
@@ -56,12 +106,12 @@ export const SocialMediaDashboard = {
   lightText: false,
   lightTextDescription: false,
   topLine: "Social Media Dashboard",
-  headLine: "Theme switcher coding challenge after design",
+  headLine: "Responsive theme switcher coding challenge",
   description:
-    "For this newbie project I used HTML, CSS and a bit of JavaScript to code the optimal layout for diverse screens and the color theme change. The challenge was to build from the given design a responsive theme changing page.",
+    "Utilized HTML, CSS, and JavaScript, implemented optimal layouts for diverse screens. Created a theme-changing functionality.",
 
-  buttonLabel1: "View Github repo",
-  buttonLabel2: "View online",
+  buttonLabel2: "View Github repo",
+  buttonLabel1: "View online",
   dark: false,
   primary: false,
   darkText: true,
@@ -69,8 +119,8 @@ export const SocialMediaDashboard = {
   imgStart: true,
   img: require("../../images/Social_Media_Dashboard_desktop1440w_dark_theme.png"),
   alt: "Social_Media_Dashboard",
-  projectUrl1: new URL("https://github.com/LauraIu/social-media-dashboard"),
-  projectUrl2: new URL("https://lauraiu.github.io/social-media-dashboard/"),
+  projectUrl2: new URL("https://github.com/LauraIu/social-media-dashboard"),
+  projectUrl1: new URL("https://lauraiu.github.io/social-media-dashboard/"),
 };
 
 export const InteractiveRatingComponent = {
@@ -85,8 +135,8 @@ export const InteractiveRatingComponent = {
   description:
     'This codeing challenge was a good exersise to "remake" the visual and handle the states.',
 
-  buttonLabel1: "View Github repo",
-  buttonLabel2: "View online",
+  buttonLabel2: "View Github repo",
+  buttonLabel1: "View online",
   dark: true,
   primary: true,
   darkText: false,
@@ -94,10 +144,8 @@ export const InteractiveRatingComponent = {
   imgStart: false,
   img: require("../../images/interactive_rating_component.png"),
   alt: "Interactive Rating Component",
-  projectUrl1: new URL(
-    "https://github.com/LauraIu/interactive-rating-component"
+  projectUrl2: new URL("https://github.com/LauraIu/interactive-rating-component"
   ),
-  projectUrl2: new URL(
-    "https://lauraiu.github.io/interactive-rating-component/"
+  projectUrl1: new URL("https://lauraiu.github.io/interactive-rating-component/"
   ),
 };

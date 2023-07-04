@@ -31,7 +31,7 @@ const ContactComponent = () => {
           title: "Thank You! Your Message was Successfully Sent!",
           confirmButtonColor: "#2b3b2d",
           color: "#f8f8f8",
-          background: "#728775",
+          background: "#487c6c",
           padding: "20px 15px 40px 15px",
         });
       },
@@ -60,7 +60,7 @@ const ContactComponent = () => {
               id="form-input-control-last-name"
               name="user_name"
               placeholder="Name…"
-              style={{ "color": "#728775" }}
+              style={{ "color": "#487c6c" }}
               required
               icon="user circle"
               iconPosition="left"
@@ -72,7 +72,7 @@ const ContactComponent = () => {
               id="form-input-control-email"
               name="user_email"
               placeholder="Email…"
-              style={{ color: "#728775" }}
+              style={{ color: "#487c6c" }}
               required
               icon="user circle"
               iconPosition="left"
@@ -85,7 +85,7 @@ const ContactComponent = () => {
               label="Message"
               name="user_message"
               placeholder="Message…"
-              style={{ color: "#728775" }}
+              style={{ color: "#487c6c" }}
               required
             />
             <NavBtnLink type="submit">Send</NavBtnLink>
