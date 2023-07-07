@@ -21,7 +21,7 @@ export const About = {
   imgStart: false,
   img: require("../../images/Iuga_Laura_portrait_04.png"),
   alt: "IuLa_profil.png",
-  cvUrl: (require ("../../IugaLAURA_FrontendUI_CV.pdf")),
+  // cvUrl: (require ("../../IugaLAURA_FrontendUI_CV.pdf")),
   // urlLink: "/contact",
   email: new URL("mailto:iuga.laura.katalin@gmail.com"),
 };
