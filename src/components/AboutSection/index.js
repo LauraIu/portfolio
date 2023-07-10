@@ -64,7 +64,7 @@ const AboutSection = ({
                   >
                     {linkText}
                   </Link>
-                  's Junior Front-End Deveoper course, where I gained specific knowledge in web development. I am enthusiastic about "making things work" and have a strong desire to create amazing experiences from scratch. Front-End development was a natural choice for me.
+                  's Junior Front-End Developer course, where I gained specific knowledge in web development. I am enthusiastic about "making things work" and have a strong desire to create amazing experiences from scratch. Front-End development was a natural choice for me.
                   <br />
                   <br />
                   Please feel free to explore my portfolio and get a better understanding of my work. To learn more about my qualifications, please refer to my CV.
