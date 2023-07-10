@@ -47,7 +47,7 @@ const Footer = () => {
           <span>|</span>
           <FooterLink 
           as="a"
-          href="../../document/IugaLAURA_FrontendUI_CV.pdf"
+          href="https://drive.google.com/file/d/15DsYf33fh9e81BFS2JLPvMu6gtlgz_np/view?usp=sharing"
           target="_blank" 
           alt="Iuga Laura CV">
             CV

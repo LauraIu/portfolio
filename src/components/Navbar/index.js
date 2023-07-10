@@ -86,7 +86,7 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks
                 as="a"
-                href="static/media/IugaLAURA_FrontendUI_CV.917be14c.pdf"
+                href="https://drive.google.com/file/d/15DsYf33fh9e81BFS2JLPvMu6gtlgz_np/view?usp=sharing"
                 require
                 target="_blank"
                 alt="Iuga Laura CV"
