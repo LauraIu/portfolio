@@ -1,6 +1,9 @@
 {
   
-  "homepage": "",
+
+  "homepage": "https://LauraIu.github.io/portfolio",
+  
+
   "name": "portfolio",
   
 
@@ -97,28 +100,13 @@
   
 
   "scripts": {
-  
 
-    
-    
-    "start": "react-scripts start",
-  
-
-    
-
+  "start": "react-scripts start",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "build": "react-scripts build",
-  
-
-    
-
   "test": "react-scripts test",
-  
-
-    
-
   "eject": "react-scripts eject"
-  
-
   },
   
 
@@ -217,8 +205,16 @@
   ]
   
 
-  }
+  },
   
 
+  "devDependencies": {
   
+
+    
+
+  "gh-pages": "^5.0.0"
+  
+
+  }
 }
