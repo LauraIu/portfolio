@@ -23,7 +23,7 @@ function ErrorPage() {
       <h2>Something went wrong!</h2>
       <hr />
       <p>
-        <Link to="/portfolio">Go back to the home page</Link>
+        <Link to="/">Go back to the home page</Link>
         {/* <Navigate to="/" /> */}
       </p>
     </div>
