@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonToUrl } from "../ButtonElements";
+import { ButtonToUrl, ButtonToUrl2 } from "../ButtonElements";
 import { MdOpenInNew } from "react-icons/md";
 // import { FaArrowAltCircleDown } from "react-icons/fa";
 
@@ -34,7 +34,7 @@ const InfoSection = ({
   description,
   description2,
   buttonLabel1,
-  // buttonLabel2,
+  buttonLabel2,
   urlLink,
   linkText,
   img,
@@ -42,7 +42,9 @@ const InfoSection = ({
   dark,
   primary,
   projectUrl1,
-  // projectUrl2,
+  projectUrl2,
+  visibility,
+  visibility2,
 }) => {
   return (
     <>
@@ -74,22 +76,24 @@ const InfoSection = ({
                     rel="noopener"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}  
+                    visibility={visibility}
                   >
                     {buttonLabel1} &#160;
                     <MdOpenInNew/>
                   </ButtonToUrl>
-                  {/* <ButtonToUrl
+                  <ButtonToUrl2
                     as="a"
                     href={projectUrl2}
                     target="_blank"
                     rel="noopener"
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
-                    alt={alt}
+                    alt={alt} 
+                    visibility2={visibility2 ? 1 : 0}
                   >
                     {buttonLabel2} &#160; 
                     <MdOpenInNew/>
-                  </ButtonToUrl> */}
+                  </ButtonToUrl2>
                   {/* TODO: Put back the button if the github links are needed */}
                 </BtnWrap>
               </TextWrapper>

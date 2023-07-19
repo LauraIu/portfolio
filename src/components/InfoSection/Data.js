@@ -1,3 +1,5 @@
+import { isVisible } from "@testing-library/user-event/dist/utils";
+
 export const AcaciaHostel = {
   id: "project_06",
   toLink: "#project_05",
@@ -10,7 +12,7 @@ export const AcaciaHostel = {
   description:
     "Co-worked on the Acacia Hostel's responsive web application. Implemented optimal layouts for diverse screens, fixed layouts, handled scrolling.",
   buttonLabel1: "View online",
-  
+  // buttonLabel2: "View Github repo",
   dark: false,
   primary: false,
   darkText: true,
@@ -19,7 +21,9 @@ export const AcaciaHostel = {
   img: require("../../images/acacia_hostel.png"),
   alt: "Acacia Hostel webpage",
   projectUrl1: new URL("https://www.acacia-hostel.com/"),
-  projectUrl2: "",
+  // projectUrl2: "",
+  visibility: true,
+  visibility2: false,
 };
 
 export const CivilRadioArchive = {
@@ -45,7 +49,10 @@ export const CivilRadioArchive = {
   alt: "The Civil Radio Archive Page",
   projectUrl1: new URL("https://www.figma.com/proto/Toh7HoOPWO4u8NMvZwApXD/CivilRadioArchive_IuLa_23_version_03?page-id=38%3A365&type=design&node-id=210-186&viewport=-12229%2C595%2C1&t=Etua9H5oz3zWWLBP-8&scaling=scale-down-width&starting-point-node-id=408%3A6647&hide-ui=1"),
   // projectUrl2: new URL("https://civil-archive-ui-template.vercel.app/...."),
-  projectUrl2: new URL ("https://github.com/Koffair")
+  // projectUrl2: new URL ("https://github.com/Koffair/civil-archive-www")
+  projectUrl2: new URL ("https://github.com/Koffair"),
+  visibility: true,
+  visibility2: true,
 };
 
 export const PortfolioPage = {
@@ -71,6 +78,8 @@ export const PortfolioPage = {
   alt: "Iuga Laura's Portfolio Page",
   projectUrl2: new URL("https://lauraiu.github.io/portfolio/"),
   projectUrl1: new URL("https://github.com/LauraIu/portfolio"),
+  visibility: true,
+  visibility2: true,
 };
 
 export const BookTable = {
@@ -96,6 +105,8 @@ export const BookTable = {
   alt: "Book a Table site",
   projectUrl2: new URL("https://github.com/LauraIu/book-a-table"),
   projectUrl1: new URL("https://lauraiu.github.io/book-a-table/"),
+  visibility: true,
+  visibility2: true,
 };
 
 export const SocialMediaDashboard = {
@@ -121,6 +132,8 @@ export const SocialMediaDashboard = {
   alt: "Social_Media_Dashboard",
   projectUrl2: new URL("https://github.com/LauraIu/social-media-dashboard"),
   projectUrl1: new URL("https://lauraiu.github.io/social-media-dashboard/"),
+  visibility: true,
+  visibility2: true,
 };
 
 export const InteractiveRatingComponent = {
@@ -148,4 +161,6 @@ export const InteractiveRatingComponent = {
   ),
   projectUrl1: new URL("https://lauraiu.github.io/interactive-rating-component/"
   ),
+  visibility: true,
+  visibility2: true,
 };
