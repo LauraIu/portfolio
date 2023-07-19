@@ -1,5 +1,3 @@
-import { isVisible } from "@testing-library/user-event/dist/utils";
-
 export const AcaciaHostel = {
   id: "project_06",
   toLink: "#project_05",
