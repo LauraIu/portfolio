@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "../../document/IugaLAURA_FrontendUI_CV_green.pdf";
 import {
   SidebarContainer,
   Icon,
@@ -29,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink
             as="a"
-            href="https://drive.google.com/file/d/15DsYf33fh9e81BFS2JLPvMu6gtlgz_np/view?usp=sharing"
+            href={Pdf}
             target="_blank"
             alt="Iuga Laura CV"
             onClick={toggle}

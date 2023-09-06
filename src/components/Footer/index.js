@@ -1,6 +1,7 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
+import Pdf from "../../document/IugaLAURA_FrontendUI_CV_green.pdf";
 import {
   FooterContainer,
   FooterWrap,
@@ -47,7 +48,7 @@ const Footer = () => {
           <span>|</span>
           <FooterLink 
           as="a"
-          href="https://drive.google.com/file/d/15DsYf33fh9e81BFS2JLPvMu6gtlgz_np/view?usp=sharing"
+          href={Pdf}
           target="_blank" 
           alt="Iuga Laura CV">
             CV

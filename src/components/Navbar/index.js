@@ -3,6 +3,7 @@ import { useEffect } from "react";
 // import { IconContext } from "react-icons";
 import { animateScroll as scroll } from "react-scroll/modules";
 import { FaBars } from "react-icons/fa"; /* https://react-icons.github.io/react-icons/search?q=bars*/
+import Pdf from "../../document/IugaLAURA_FrontendUI_CV_green.pdf";
 import {
   Nav,
   NavBarContainer,
@@ -86,7 +87,9 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks
                 as="a"
-                href="https://drive.google.com/file/d/15DsYf33fh9e81BFS2JLPvMu6gtlgz_np/view?usp=sharing"
+                // href="https://drive.google.com/file/d/15DsYf33fh9e81BFS2JLPvMu6gtlgz_np/view?usp=sharing"
+                // href="https://drive.google.com/file/d/19Ot01uGkTKxePsCqlYPLTb-dczfqXDQV/view?usp=drive_link"
+                href={Pdf}
                 require
                 target="_blank"
                 alt="Iuga Laura CV"
