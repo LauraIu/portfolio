@@ -5,6 +5,8 @@ import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import {
   CivilRadioArchive,
+  ModernTeka,
+  Nyksund,
   AcaciaHostel,
   PortfolioPage,
   SocialMediaDashboard,
@@ -30,6 +32,8 @@ const Main = () => {
 
       <HeroSection />
       <AboutSection {...About} />
+      <InfoSection {...ModernTeka}/>
+      <InfoSection {...Nyksund}/>
       <InfoSection {...AcaciaHostel}/>
       <InfoSection {...CivilRadioArchive} />
       <InfoSection {...PortfolioPage} />
