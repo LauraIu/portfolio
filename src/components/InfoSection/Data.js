@@ -1,3 +1,54 @@
+export const ModernTeka = {
+  id: "project_08",
+  toLink: "#project_07",
+  forwardLinkText:"ModernTeka",
+  lightBg: true,
+  lightText: false,
+  lightTextDescription: false,
+  topLine: "ModernTéka application",
+  headLine: "Architectural mapping web app",
+  description:
+    "WORK IN PROGRESS | Co-Developed the the ModernTéka's application based on given Figma design. Implemented MapBox GL JS for showing the  featured buildings, there will be visualized some guided tours also. The project is built with MapBox, React, Next.js, Hygraph, Vercel, and Tailwind.",
+  buttonLabel1: "WORK IN PROGRESS - online",
+  // buttonLabel2: "View Github repo",
+  dark: false,
+  primary: false,
+  darkText: true,
+
+  imgStart: true,
+  img: require("../../images/ModernTeka.png"),
+  alt: "ModernTéka webpage",
+  projectUrl1: new URL("https://www.modernteka.hu/"),
+  // projectUrl2: "",
+  visibility: true,
+  visibility2: false,
+};
+
+export const Nyksund = {
+  id: "project_07",
+  toLink: "#project_06",
+  forwardLinkText:"Next project",
+  lightBg: false,
+  lightText: true,
+  lightTextDescription: true,
+  topLine: "Nyksund-Berlin Artistic Archive",
+  headLine: "Artistic archive UX&UI design and web application",
+  description:
+    "WORK IN PROGRESS | Designed UX&UI responsive web from scratch and implemented the application. Design: Figma | Web stack: React, Next.js, Hygraph, Vercel, Tailwind.",
+  buttonLabel1: "View online",
+  // buttonLabel2: "View Github repo",
+  dark: true,
+  primary: true,
+  darkText: false,
+
+  imgStart: false,
+  img: require("../../images/Nyksund.png"),
+  alt: "Nyksund-Berlin Artistic Archive app",
+  projectUrl1: "",
+  projectUrl2: "",
+  visibility: false,
+  visibility2: false,
+};
 export const AcaciaHostel = {
   id: "project_06",
   toLink: "#project_05",
