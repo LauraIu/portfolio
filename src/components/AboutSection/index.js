@@ -126,13 +126,13 @@ const AboutSection = ({
                     color: "#010606",
                     marginBottom: "36px",
                   }}>
-                    <strong>Front-End Coding:</strong> HTML, CSS, JavaScript, Typescript.
+                    <strong>Front-End Coding:</strong> HTML, CSS, JavaScript, Typescript, Styled-components, Tailwind.
                     <br /><br />  
-                    <strong>Frameworks and technologies:</strong> ReactJs, NextJs, Styled-components, Tailwind, GitHub.
+                    <strong>Frameworks and technologies:</strong> ReactJs, NextJs, Hygraph, Vercel, GitHub.
                     <br /><br /> 
-                    <strong>Tools:</strong> VsCode, Adobe, Figma, Canva.
+                    <strong>Tools:</strong> VsCode, Adobe Creative, Figma, Canva, Miro.
                     <br /><br /> 
-                    <strong>Design Thinking:</strong> wireframing, problemsolving, visualising ideas.
+                    <strong>Design Thinking:</strong> wireframing, problemsolving, UX design.
                     <br /><br />  
                     <strong>Soft skills:</strong> Strong communication and collaboration skills, empathy and critical thinking.
                 </p>
