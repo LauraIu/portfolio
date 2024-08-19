@@ -42,7 +42,7 @@ export const NavLogo = styled(LinkRouter)`
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
-  color: #5f9b89;
+  color: #12a3bc;
 `;
 
 export const MobileIcon = styled.div`
@@ -57,12 +57,12 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
 
-    color: #487c6c;
+    color: #12a3bc;
   }
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #e5b507;
+    color: #32f5fc;
   }
 `;
 
@@ -89,15 +89,15 @@ export const NavLinks = styled(Link)`
   height: 100%;
   padding: 0 1rem;
   text-decoration: none;
-  color: #5f9b89;
+  color: #12a3bc;
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #e5b507;
+    border-bottom: 3px solid #12a3bc;
   }
 
   &:hover{
-    color:#e5b507;
+    color:#32f5fc;
   }
 `;
 
@@ -113,11 +113,11 @@ export const NavBtn = styled.nav`
 export const NavBtnLink = styled(Link)`
   white-space: nowrap;
   padding: 5px 15px;
-  color: #5f9b89;
+  color: #12a3bc;
   font-size: 16px;
   text-decoration: none;
   outline: none;
-  border: 1px solid #5f9b89;
+  border: 1px solid #12a3bc;
   background: transparent;
   border-radius: 2px;
 
@@ -126,7 +126,7 @@ export const NavBtnLink = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #5f9b89;
+    background: #32f5fc;
     color: #010606;
   }
 `;

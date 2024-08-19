@@ -39,6 +39,7 @@ padding: 0 50px;
 
 export const OtherCard = styled.div`
   background: #010606;
+  color: #12aebc;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -48,10 +49,12 @@ export const OtherCard = styled.div`
   padding: 20px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
 
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
+    // background-color: #12aebc;
     cursor: pointer;
   }
 `;
@@ -59,7 +62,7 @@ export const OtherIcon = styled.img`
   height: 180px;
   width: 180px;
   margin-bottom: 10px;
-  border: 1px solid #487c6c;
+  border: 1px solid #12aebc;
   border-radius:2px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 `;
@@ -69,7 +72,7 @@ export const OtherH1 = styled.h1`
   line-height: 1.1;
   margin-bottom: 64px;
   padding: 20px 30px 20px 30px;
-  color: #487c6c;
+  color: #12aebc;
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -89,7 +92,9 @@ export const OtherH2 = styled.h2`
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #5f9b89;
+  color: #12aebc;
+
+  &:hover {color: #12aebc;}
 `;
 
 export const OtherP = styled.p`

@@ -11,7 +11,7 @@ export const ContactContainer = styled.div`
   left: 0;
   z-index: 0;
   overflow: hidden;
-  background: #487c6c;
+  background: #12a3bc;
 `;
 
 export const FormWrap = styled.div`
@@ -56,7 +56,7 @@ export const Form = styled.form`
   margin: 0 auto;
   padding: 32px 24px;
   border-radius: 2px;
-  /* border: 1px solid #728775; */
+  /* border: 1px solid #12a3bc; */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
   @media screen and (max-width: 400px) {
@@ -66,7 +66,7 @@ export const Form = styled.form`
 
 export const FormH1 = styled.h1`
   margin-bottom: 40px;
-  color: #e5b507;
+  color: #12a3bc;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -88,11 +88,11 @@ export const FormInput = styled.input`
   border-radius: 2px;
   border: 1px solid #487c6c;
   background-color: #f8f8f8;
-  caret-color: #e5b507;
+  caret-color: #12a3bc;
 
   &:focus,
   :hover {
-    border: 1px solid #e5b507;
+    border: 1px solid #12a3bc;
     outline: none;
     background-color: #fff;
   }
@@ -115,11 +115,11 @@ export const FormTextarea = styled.textarea`
   box-sizing: border-box;
   resize: none;
   cursor: text;
-  caret-color: #e5b507;
+  caret-color: #12a3bc;
 
   &:focus,
   :hover {
-    border: 1px solid #e5b507;
+    border: 1px solid #12a3bc;
     outline: none;
     background-color: #fff;
   }
@@ -148,8 +148,8 @@ export const NavBtnLink = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    border: 1px solid #e5b507;
-    background: #e5b507;
+    border: 1px solid #12a3bc;
+    background: #12a3bc;
     color: #f8f8f8;
   }
 `;
