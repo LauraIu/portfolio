@@ -61,7 +61,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroTitle = styled.h1`
-  color: #5f9b89;
+  color: #12a3bc;
   font-size: 36px;
   text-align: center;
 
@@ -75,7 +75,7 @@ export const HeroTitle = styled.h1`
 
 export const HeroP = styled.p`
   margin-top: 24px;
-  color: #5f9b89;
+  color: #12a3bc;
   font-size: 22px;
   text-align: center;
   max-width: 600px;
@@ -100,11 +100,11 @@ display: flex;
 align-items: center;
   white-space: nowrap;
   padding: 5px 15px 7px 15px;
-  color: #e5b507;
+  color: #12a3bc;
   font-size: 16px;
   text-decoration: none;
   outline: none;
-  border: 1px solid #e5b507;
+  border: 1px solid #12a3bc;
   background: transparent;
   border-radius: 2px;
 
@@ -113,7 +113,7 @@ align-items: center;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #e5b507;
+    background: #32f5fc;
     color: #010606;
   }
 `;

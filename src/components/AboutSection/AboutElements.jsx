@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#487c6c")};
+  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#12aebc")};
   padding: 40px 0;
 
   @media screen and (min-width: 1440px) {
@@ -79,7 +79,7 @@ export const TextWrapper2 = styled.div`
   `;
 
 export const TopLine = styled.p`
-  color: #e5b507;
+  color: #32f5fc;
   font-size: 14px;
   line-height: 14px;
   font-weight: 700;

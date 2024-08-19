@@ -3,7 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 export const Container = styled.section`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#487c6c")};
+  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#12aebc")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -71,7 +71,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #e5b507;
+  color: #03454c;
   font-size: 14px;
   line-height: 14px;
   font-weight: 700;
@@ -87,7 +87,7 @@ export const Heading = styled.h1`
   font-weight: 600;
   line-height: 1.1;
   margin-bottom: 24px;
-  color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#487c6c")};
+  color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#12aebc")};
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -114,7 +114,7 @@ export const TextLink = styled.a`
   color: ${({ darkText }) => (darkText ? "#010606" : "#010606")}; 
   
   &:hover {
-    background-color: #e5b507;
+    background-color: #11d0dd;
     padding: 0 1px;
     text-decoration: none;
   }
@@ -175,7 +175,7 @@ export const NextProjectLink = styled(Link)`
   line-height: 14px;
 
   &:hover {
-    color: #e5b507;
+    color: #12aebc;
     transition: 0.3s ease-out;
   }
 `;

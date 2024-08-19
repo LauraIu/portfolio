@@ -3,7 +3,7 @@ import { useEffect } from "react";
 // import { IconContext } from "react-icons";
 import { animateScroll as scroll } from "react-scroll/modules";
 import { FaBars } from "react-icons/fa"; /* https://react-icons.github.io/react-icons/search?q=bars*/
-import Pdf from "../../document/IugaLAURA_FrontendUI_CV_green.pdf";
+import Pdf from "../../document/IugaLAURA_FrontendUI_CV_20240815.pdf";
 import {
   Nav,
   NavBarContainer,
@@ -64,7 +64,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="#project_06"
+                to="#project_08"
                 smooth
                 duration={500}
                 exact="true"

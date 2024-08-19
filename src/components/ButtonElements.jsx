@@ -52,9 +52,9 @@ export const ButtonToUrl = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#e5b507" : "#5f9b89")};
+    background: ${({ primary }) => (primary ? "#f8f8f8" : "#0ec6d3")};
     border: ${({ primary }) =>
-      primary ? "1px solid #e5b507" : "1px solid #5f9b89"};
+      primary ? "1px solid #f8f8f8" : "1px solid #0ec6d3"};
   }
 `;
 
@@ -86,9 +86,9 @@ export const ButtonToUrl2 = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#e5b507" : "#5f9b89")};
+    background: ${({ primary }) => (primary ? "#f8f8f8" : "#0ec6d3")};
     border: ${({ primary }) =>
-      primary ? "1px solid #e5b507" : "1px solid #5f9b89"};
+      primary ? "1px solid #f8f8f8" : "1px solid #0ec6d3"};
   }
 `;
 
