@@ -1,7 +1,7 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
-import Pdf from "../../document/IugaLAURA_FrontendUI_CV_green.pdf";
+import Pdf from "../../document/IugaLAURA_FrontendUI_CV_20240815.pdf";
 import {
   FooterContainer,
   FooterWrap,
@@ -38,7 +38,7 @@ const Footer = () => {
             About
           </FooterLink>
           <span>|</span>
-          <FooterLink to="#project_06" smooth>
+          <FooterLink to="#project_08" smooth>
             DevProjects
           </FooterLink>
           <span>|</span>

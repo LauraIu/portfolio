@@ -9,7 +9,7 @@ export const ModernTeka = {
   headLine: "Architectural mapping web app",
   description:
     "WORK IN PROGRESS | Co-Developed the the ModernTéka's application based on given Figma design. Implemented MapBox GL JS for showing the  featured buildings, there will be visualized some guided tours also. The project is built with MapBox, React, Next.js, Hygraph, Vercel, and Tailwind.",
-  buttonLabel1: "WORK IN PROGRESS - online",
+  buttonLabel1: "MVP - modernteka.hu",
   // buttonLabel2: "View Github repo",
   dark: false,
   primary: false,
@@ -35,8 +35,8 @@ export const Nyksund = {
   headLine: "Artistic archive UX&UI design and web application",
   description:
     "WORK IN PROGRESS | Designed UX&UI responsive web from scratch and implemented the application. Design: Figma | Web stack: React, Next.js, Hygraph, Vercel, Tailwind.",
-  buttonLabel1: "View online",
-  // buttonLabel2: "View Github repo",
+    buttonLabel1: "WIP - nbaarchive.org",
+    // buttonLabel2: "View online",
   dark: true,
   primary: true,
   darkText: false,
@@ -44,9 +44,9 @@ export const Nyksund = {
   imgStart: false,
   img: require("../../images/Nyksund.png"),
   alt: "Nyksund-Berlin Artistic Archive app",
-  projectUrl1: "",
-  projectUrl2: "",
-  visibility: false,
+  projectUrl1:new URL ("https://www.nbaarchive.org/"),
+  // projectUrl2: "",
+  visibility: true,
   visibility2: false,
 };
 export const AcaciaHostel = {
