@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#12aebc")};
+  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#259bbc")};
   padding: 40px 0;
 
   @media screen and (min-width: 1440px) {
@@ -79,7 +79,7 @@ export const TextWrapper2 = styled.div`
   `;
 
 export const TopLine = styled.p`
-  color: #32f5fc;
+  color: #f8f8f8;
   font-size: 14px;
   line-height: 14px;
   font-weight: 700;
@@ -114,7 +114,7 @@ export const Link = styled.a`
   color: ${({ darkText }) => (darkText ? "#010606" : "#010606")};
 
   &:hover {
-    background-color: #e5b507;
+    background-color: #f8f8f8;
     padding: 0 1px;
     text-decoration: none;
   }

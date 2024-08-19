@@ -38,9 +38,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             CV
           </SidebarLink>
         </SidebarMenu>
-        <SideBtnWrap>
+        {/* <SideBtnWrap>
           <SidebarRoute to="/contact">Contact me</SidebarRoute>
-        </SideBtnWrap>
+        </SideBtnWrap> */}
       </SidebarWrapper>
     </SidebarContainer>
   );

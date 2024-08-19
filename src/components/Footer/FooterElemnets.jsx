@@ -38,7 +38,7 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color:#32f5fc;
+    color:#27bce5;
     transition: 0.3s ease-out;
   }
 
@@ -65,7 +65,7 @@ export const FooterContactLink = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #32f5fc;
+    color: #27bce5;
     background: transparent;
     border: 1px solid #12a3bc;
   }
@@ -103,7 +103,7 @@ export const SocialLogo = styled(Link)`
   font-weight: bold;
 
   &:hover {
-    color: #32f5fc;
+    color: #27bce5;
   }
 `;
 
@@ -126,6 +126,6 @@ export const SocialIconLink = styled.a`
   &:hover {
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-    color: #32f5fc;
+    color: #27bce5;
   }
 `;

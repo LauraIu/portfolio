@@ -24,7 +24,7 @@ export const CloseIcon = styled(FaTimes)`
   color: #12aebc;
   
   &:hover {
-    color: #32f5fc;
+    color: #27bce5;
   }
 `;
 
@@ -66,7 +66,7 @@ export const SidebarLink = styled(Link)`
   cursor: pointer;
 
   &:hover {
-    color: #32f5fc;
+    color: #27bce5;
     transition: 0.2s ease-in-out;
   }
 `;
@@ -91,7 +91,7 @@ export const SidebarRoute = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #32f5fc;
+    background: #27bce5;
     color: #010606;
   }
 `;

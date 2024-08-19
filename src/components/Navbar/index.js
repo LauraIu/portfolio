@@ -98,9 +98,9 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
           </NavMenu>
-          <NavBtn>
+          {/* <NavBtn>
             <NavBtnLink to="/contact">Contact me</NavBtnLink>
-          </NavBtn>
+          </NavBtn> */}
         </NavBarContainer>
       </Nav>
       {/* </IconContext.Provider> */}

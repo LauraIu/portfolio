@@ -16,7 +16,7 @@
   justify-content: center;
   text-align: center;
 
-  color: #12aebc;
+  color: #27bce5;
   width: 100%;
   height: 100vh;
   background: #0c0c0c;
@@ -24,7 +24,7 @@
 
 .error-page h2 {
   font-size: 24px;
-  color: #12aebc;
+  color: #27bce5;
 }
 
 .error-page a {
@@ -40,6 +40,6 @@
 hr {
   width: 290px;
   border: none;
-  border-top: 1px solid #12aebc;
+  border-top: 1px solid #27bce5;
   margin: 4px 0 16px 0;
 }

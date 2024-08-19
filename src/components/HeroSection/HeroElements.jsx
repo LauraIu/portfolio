@@ -113,7 +113,7 @@ align-items: center;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #32f5fc;
+    background: #27bce5;
     color: #010606;
   }
 `;

@@ -52,9 +52,9 @@ export const ButtonToUrl = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#f8f8f8" : "#0ec6d3")};
+    background: ${({ primary }) => (primary ? "#f8f8f8" : "#29b4db")};
     border: ${({ primary }) =>
-      primary ? "1px solid #f8f8f8" : "1px solid #0ec6d3"};
+      primary ? "1px solid #f8f8f8" : "1px solid #29b4db"};
   }
 `;
 
@@ -86,16 +86,16 @@ export const ButtonToUrl2 = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#f8f8f8" : "#0ec6d3")};
+    background: ${({ primary }) => (primary ? "#f8f8f8" : "#29b4db")};
     border: ${({ primary }) =>
-      primary ? "1px solid #f8f8f8" : "1px solid #0ec6d3"};
+      primary ? "1px solid #f8f8f8" : "1px solid #29b4db"};
   }
 `;
 
 
 export const ButtonToCv = styled.button`
   border-radius: 2px;
-  background: #e5b507;
+  background: transparent;
   white-space: nowrap;
   padding: ${({ big }) => (big ? "10px 30px" : "5px 15px")};
   margin-right: 16px;
@@ -103,7 +103,7 @@ export const ButtonToCv = styled.button`
   font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
   text-decoration: none;
   outline: none;
-  border: 1px solid #e5b507;
+  border: 1px solid #010606;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -117,7 +117,7 @@ export const ButtonToCv = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #487c6c;
-    border: 1px solid #010606;
+    background: #f8f8f8;
+    border: 1px solid #f8f8f8;
   }
 `;

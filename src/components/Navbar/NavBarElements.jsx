@@ -62,7 +62,7 @@ export const MobileIcon = styled.div`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #32f5fc;
+    color: #27bce5;
   }
 `;
 
@@ -97,7 +97,7 @@ export const NavLinks = styled(Link)`
   }
 
   &:hover{
-    color:#32f5fc;
+    color:#27bce5;
   }
 `;
 
