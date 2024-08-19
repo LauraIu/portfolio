@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../../document/IugaLAURA_FrontendUI_CV_green.pdf";
+import Pdf from "../../document/IugaLAURA_FrontendUI_CV_20240815.pdf";
 import {
   SidebarContainer,
   Icon,
