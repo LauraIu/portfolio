@@ -47,7 +47,7 @@ const AboutSection = ({
           <AboutRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <TopLine>{topLine}</TopLine>
+                <TopLine hidden>{topLine}</TopLine>
                 <AboutHeading lightText={lightText}>{headLine}</AboutHeading>
                 <AboutSubtitle darkText={darkText}>
                   I have a background in web and graphic design, data management, and communication. I hold an MA degree in Media Arts and have previously worked in marketing, archive digitization, and as a freelance web and graphic designer. I have also organized small projects for my NGO.

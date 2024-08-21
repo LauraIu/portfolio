@@ -3,7 +3,7 @@ export const About = {
   lightBg: false,
   lightText: true,
   // lightTextDescription: true,
-  // topLine: "Hi there!",
+  topLine: "Hi there!",
   headLine: "I'm Laura Iuga",
   headLine2: "Front-End Coding: ",
   description: "HTML, CSS, JavaScript, Typescript.",

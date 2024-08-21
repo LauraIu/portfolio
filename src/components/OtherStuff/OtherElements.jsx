@@ -62,7 +62,7 @@ export const OtherIcon = styled.img`
   height: 180px;
   width: 180px;
   margin-bottom: 10px;
-  border: 1px solid #27bce5;
+  border: 1px solid #07afa4;
   border-radius:2px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 `;
@@ -72,7 +72,7 @@ export const OtherH1 = styled.h1`
   line-height: 1.1;
   margin-bottom: 64px;
   padding: 20px 30px 20px 30px;
-  color: #27bce5;
+  color: #07afa4;
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -92,9 +92,18 @@ export const OtherH2 = styled.h2`
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #27bce5;
+  color: #07afa4;
 
-  &:hover {color: #27bce5;}
+  &:hover {color: #04d3c5;}
+`;
+
+export const OtherH2Soon = styled.h2`
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #94b1b2;
+
+  &:hover {color: #94b1b2;}
 `;
 
 export const OtherP = styled.p`

@@ -11,7 +11,7 @@ export const ContactContainer = styled.div`
   left: 0;
   z-index: 0;
   overflow: hidden;
-  background: #12a3bc;
+  background: #07afa4;
 `;
 
 export const FormWrap = styled.div`
@@ -66,7 +66,7 @@ export const Form = styled.form`
 
 export const FormH1 = styled.h1`
   margin-bottom: 40px;
-  color: #12a3bc;
+  color: #07afa4;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -88,11 +88,11 @@ export const FormInput = styled.input`
   border-radius: 2px;
   border: 1px solid #487c6c;
   background-color: #f8f8f8;
-  caret-color: #12a3bc;
+  caret-color: #07afa4;
 
   &:focus,
   :hover {
-    border: 1px solid #12a3bc;
+    border: 1px solid #04d3c5;
     outline: none;
     background-color: #fff;
   }
@@ -119,7 +119,7 @@ export const FormTextarea = styled.textarea`
 
   &:focus,
   :hover {
-    border: 1px solid #12a3bc;
+    border: 1px solid #04d3c5;
     outline: none;
     background-color: #fff;
   }
@@ -148,8 +148,8 @@ export const NavBtnLink = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    border: 1px solid #12a3bc;
-    background: #12a3bc;
+    border: 1px solid #04d3c5;
+    background: #04d3c5;
     color: #f8f8f8;
   }
 `;

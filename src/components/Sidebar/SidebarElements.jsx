@@ -21,10 +21,10 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #12aebc;
+  color: #07afa4;
   
   &:hover {
-    color: #27bce5;
+    color: #04d3c5;
   }
 `;
 
@@ -62,11 +62,11 @@ export const SidebarLink = styled(Link)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: #12aebc;
+  color: #07afa4;
   cursor: pointer;
 
   &:hover {
-    color: #27bce5;
+    color: #04d3c5;
     transition: 0.2s ease-in-out;
   }
 `;

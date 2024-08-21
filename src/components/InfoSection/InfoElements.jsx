@@ -3,10 +3,10 @@ import { HashLink as Link } from "react-router-hash-link";
 
 export const Container = styled.section`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#259bbc")};
-
+  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#07afa4")};
+padding: 25vh 0;
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 25vh 0;
   }
 `;
 
@@ -15,7 +15,7 @@ export const InfoWrapper = styled.div`
   justify-content: center;
   max-width: 1100px;
   width: 100%;
-  height: 800px;
+  height: auto;
   z-index: 1;
   margin: auto;
   padding: 8px 24px;
@@ -87,7 +87,7 @@ export const Heading = styled.h1`
   font-weight: 600;
   line-height: 1.1;
   margin-bottom: 24px;
-  color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#259bbc")};
+  color: ${({ lightText }) => (lightText ? "#f8f8f8" : "#07afa4")};
 
   @media screen and (max-width: 768px) {
     font-size: 24px;

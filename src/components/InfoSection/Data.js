@@ -114,7 +114,7 @@ export const PortfolioPage = {
   topLine: "My Portfolio Page",
   headLine: "Portfolio page made from scratch, design & code",
   description:
-    "This is my first fully responsive portfolio developed useing ReactJs (I have made others years before, with pure HTML & CSS). Utilized styled components for a more modular approach.",
+    "This is my first fully responsive portfolio developed useing ReactJs (I have made others years before, with pure HTML & CSS). Utilized react and styled components for a more modular approach.",
 
   buttonLabel1: "View Github repo",
   buttonLabel2: "Plese, look around!",

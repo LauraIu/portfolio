@@ -52,7 +52,7 @@ export const ButtonToUrl = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#f8f8f8" : "#29b4db")};
+    background: ${({ primary }) => (primary ? "#f8f8f8" : "#07afa4")};
     border: ${({ primary }) =>
       primary ? "1px solid #f8f8f8" : "1px solid #29b4db"};
   }
@@ -86,7 +86,7 @@ export const ButtonToUrl2 = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#f8f8f8" : "#29b4db")};
+    background: ${({ primary }) => (primary ? "#f8f8f8" : "#07afa4")};
     border: ${({ primary }) =>
       primary ? "1px solid #f8f8f8" : "1px solid #29b4db"};
   }
