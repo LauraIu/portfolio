@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "91749cbf9a760044789a",
+    "revision": "7104acea3f2755b05811",
     "url": "/portfolio/static/css/main.a8253380.chunk.css"
   },
   {
-    "revision": "91749cbf9a760044789a",
-    "url": "/portfolio/static/js/main.91749cbf.chunk.js"
+    "revision": "7104acea3f2755b05811",
+    "url": "/portfolio/static/js/main.7104acea.chunk.js"
   },
   {
     "revision": "ca98d2ac38891f0b778f",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/IugaLAURA_FrontendUI_CV_20240815.8ff3f89c.pdf"
   },
   {
-    "revision": "fa85d41f749b0a7ab4ddb27dc5ed8558",
-    "url": "/portfolio/static/media/webworks.fa85d41f.png"
+    "revision": "1898f16ba405c40b9bc2f305fea243d3",
+    "url": "/portfolio/static/media/webworks_bw.1898f16b.png"
   },
   {
     "revision": "0d32c70e6a2b7a1666a4fd07b7bfaa92",
     "url": "/portfolio/static/media/printScreen_240306_.0d32c70e.jpg"
   },
   {
-    "revision": "f2c7fa0057fd9e1f33099971a60a622b",
-    "url": "/portfolio/static/media/OtherWorks_IuLa.f2c7fa00.png"
+    "revision": "17050e583e482b11edc92e76b137ebef",
+    "url": "/portfolio/static/media/OtherWorks_IuLa_bw.17050e58.png"
   },
   {
     "revision": "4a75a90acd7a464842cb1411159aa264",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Iuga_Laura_portrait_04.2201f2e2.png"
   },
   {
-    "revision": "c14e52f8dd426d1e3746218aa09e0748",
+    "revision": "95581c1674ad1d66c0e056b6d256cec0",
     "url": "/portfolio/index.html"
   }
 ];

@@ -1,15 +1,15 @@
 {
   "main.css": "/portfolio/static/css/main.a8253380.chunk.css",
-  "main.js": "/portfolio/static/js/main.91749cbf.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.91749cbf.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.7104acea.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.7104acea.chunk.js.map",
   "static/js/1.ca98d2ac.chunk.js": "/portfolio/static/js/1.ca98d2ac.chunk.js",
   "static/js/1.ca98d2ac.chunk.js.map": "/portfolio/static/js/1.ca98d2ac.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/IugaLAURA_FrontendUI_CV_20240815.pdf": "/portfolio/static/media/IugaLAURA_FrontendUI_CV_20240815.8ff3f89c.pdf",
-  "static/media/webworks.png": "/portfolio/static/media/webworks.fa85d41f.png",
+  "static/media/webworks_bw.png": "/portfolio/static/media/webworks_bw.1898f16b.png",
   "static/media/printScreen_240306_.jpg": "/portfolio/static/media/printScreen_240306_.0d32c70e.jpg",
-  "static/media/OtherWorks_IuLa.png": "/portfolio/static/media/OtherWorks_IuLa.f2c7fa00.png",
+  "static/media/OtherWorks_IuLa_bw.png": "/portfolio/static/media/OtherWorks_IuLa_bw.17050e58.png",
   "static/media/Laura Iuga_mixedPortfolio.pdf": "/portfolio/static/media/Laura Iuga_mixedPortfolio.4a75a90a.pdf",
   "static/media/ModernTeka.png": "/portfolio/static/media/ModernTeka.f3224d72.png",
   "static/media/Nyksund.png": "/portfolio/static/media/Nyksund.9a189aeb.png",
@@ -22,6 +22,6 @@
   "static/media/Iuga_Laura_portrait_04.png": "/portfolio/static/media/Iuga_Laura_portrait_04.2201f2e2.png",
   "static/css/main.a8253380.chunk.css.map": "/portfolio/static/css/main.a8253380.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.c6f1c76efa3bb2b0fbe2a23c356fb819.js": "/portfolio/precache-manifest.c6f1c76efa3bb2b0fbe2a23c356fb819.js",
+  "precache-manifest.5d08f5c728c445bb7d5c417212fd2c50.js": "/portfolio/precache-manifest.5d08f5c728c445bb7d5c417212fd2c50.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
