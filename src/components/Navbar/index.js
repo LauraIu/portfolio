@@ -3,7 +3,7 @@ import { useEffect } from "react";
 // import { IconContext } from "react-icons";
 import { animateScroll as scroll } from "react-scroll/modules";
 import { FaBars } from "react-icons/fa"; /* https://react-icons.github.io/react-icons/search?q=bars*/
-import Pdf from "../../document/IugaLAURA_FrontendUI_CV_20240815.pdf";
+import Pdf from "../../document/IugaLAURA_FrontendUI_CV_2024.pdf";
 import {
   Nav,
   NavBarContainer,
@@ -12,8 +12,6 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBtn,
-  NavBtnLink,
 } from "./NavBarElements";
 
 const Navbar = ({ toggle }) => {
@@ -89,6 +87,7 @@ const Navbar = ({ toggle }) => {
                 as="a"
                 // href="https://drive.google.com/file/d/15DsYf33fh9e81BFS2JLPvMu6gtlgz_np/view?usp=sharing"
                 // href="https://drive.google.com/file/d/19Ot01uGkTKxePsCqlYPLTb-dczfqXDQV/view?usp=drive_link"
+                // https://drive.google.com/file/d/1qIV_J-kgtgKwS4jeGW-KXC6___ITpc_8/view?usp=drive_link
                 href={Pdf}
                 require
                 target="_blank"

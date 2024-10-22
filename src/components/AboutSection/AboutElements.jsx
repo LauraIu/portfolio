@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#07afa4")};
+  background: ${({ lightBg }) => (lightBg ? "#f8f8f8" : "#06a5ad")};
   padding: 40px 0;
 
   @media screen and (min-width: 1440px) {

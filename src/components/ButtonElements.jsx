@@ -36,7 +36,7 @@ export const ButtonToUrl = styled.button`
   outline: none;
   /* border: none; */
   border: ${({ primary }) =>
-    primary ? "1px solid #010606" : "1px solid #5f9b89"};
+    primary ? "1px solid #010606" : "1px solid #000"};
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -52,9 +52,8 @@ export const ButtonToUrl = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#f8f8f8" : "#07afa4")};
-    border: ${({ primary }) =>
-      primary ? "1px solid #f8f8f8" : "1px solid #29b4db"};
+    background: ${({ primary }) => (primary ? "rgb(248, 248, 248, 0.5)" : "rgb(6, 165, 173, 0.4)")};
+    
   }
 `;
 
@@ -70,7 +69,7 @@ export const ButtonToUrl2 = styled.button`
   outline: none;
   /* border: none; */
   border: ${({ primary }) =>
-    primary ? "1px solid #010606" : "1px solid #5f9b89"};
+    primary ? "1px solid #010606" : "1px solid #000"};
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -86,9 +85,8 @@ export const ButtonToUrl2 = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#f8f8f8" : "#07afa4")};
-    border: ${({ primary }) =>
-      primary ? "1px solid #f8f8f8" : "1px solid #29b4db"};
+    background: ${({ primary }) => (primary ? "rgb(248, 248, 248, 0.5)" : "rgb(6, 165, 173, 0.4)")};
+    
   }
 `;
 
@@ -117,7 +115,10 @@ export const ButtonToCv = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #f8f8f8;
-    border: 1px solid #f8f8f8;
+    background: rgb(248, 248, 248, 0.5);
   }
 `;
+
+
+// border: ${({ primary }) =>
+//   primary ? "1px solid #f8f8f8" : "1px solid #29b4db"};

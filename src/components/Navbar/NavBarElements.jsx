@@ -43,6 +43,9 @@ export const NavLogo = styled(LinkRouter)`
   font-weight: bold;
   text-decoration: none;
   color: #07afa4;
+
+  &:hover{
+    color:#04d3c5;
 `;
 
 export const MobileIcon = styled.div`

@@ -61,7 +61,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroTitle = styled.h1`
-  color: #07afa4;
+  color: #fcfcfc;
   font-size: 36px;
   text-align: center;
 
@@ -75,10 +75,13 @@ export const HeroTitle = styled.h1`
 
 export const HeroP = styled.p`
   margin-top: 24px;
-  color: #07afa4;
+  color: #fcfcfc;
   font-size: 22px;
+  font-weigth:100;
   text-align: center;
+  letter-spacing: 1px;
   max-width: 600px;
+
 
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -93,6 +96,7 @@ export const HeroBtnWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 16px;
 `;
 
 export const HeroBtnLink = styled(Link)`
@@ -100,11 +104,11 @@ display: flex;
 align-items: center;
   white-space: nowrap;
   padding: 5px 15px 7px 15px;
-  color: #07afa4;
+  color: #fcfcfc;
   font-size: 16px;
   text-decoration: none;
   outline: none;
-  border: 1px solid #07afa4;
+  border: 1px solid #fcfcfc;
   background: transparent;
   border-radius: 2px;
 
@@ -113,17 +117,22 @@ align-items: center;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #04d3c5;
-    color: #010606;
+    color: #fcfcfc;
+    border: 1px solid #fcfcfc;
+    font-size: 26px;
+    padding: 7px 17px 7px 17px;
+    background: rgb(6, 165, 173, 0.5);
   }
 `;
 
+
 export const ArrowForward = styled(MdArrowForward)`
   margin-left: 8px;
-  font-size: 20px;
+  font-size: 26px;
 `;
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
+

@@ -11,7 +11,7 @@ export const ContactContainer = styled.div`
   left: 0;
   z-index: 0;
   overflow: hidden;
-  background: #07afa4;
+  background: #06a5ad;
 `;
 
 export const FormWrap = styled.div`
@@ -66,7 +66,7 @@ export const Form = styled.form`
 
 export const FormH1 = styled.h1`
   margin-bottom: 40px;
-  color: #07afa4;
+  color: #06a5ad;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -148,8 +148,8 @@ export const NavBtnLink = styled.button`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    border: 1px solid #04d3c5;
-    background: #04d3c5;
-    color: #f8f8f8;
+   
+    background: rgb(6, 165, 173, 0.4);
+    
   }
 `;

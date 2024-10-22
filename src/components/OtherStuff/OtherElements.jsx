@@ -62,7 +62,7 @@ export const OtherIcon = styled.img`
   height: 180px;
   width: 180px;
   margin-bottom: 10px;
-  border: 1px solid #07afa4;
+  border: 1px solid #06a5ad;
   border-radius:2px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 `;
@@ -72,7 +72,7 @@ export const OtherH1 = styled.h1`
   line-height: 1.1;
   margin-bottom: 64px;
   padding: 20px 30px 20px 30px;
-  color: #07afa4;
+  color: #06a5ad;
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -92,7 +92,7 @@ export const OtherH2 = styled.h2`
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #07afa4;
+  color: #06a5ad;
 
   &:hover {color: #04d3c5;}
 `;
