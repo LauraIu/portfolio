@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const ContactContainer = styled.div`
-  height: auto;
+  height: 100vh;
 
   // position: fixed;
   top: 0;

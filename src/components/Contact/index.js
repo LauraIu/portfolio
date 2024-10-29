@@ -31,7 +31,7 @@ const ContactComponent = () => {
           title: "Thank You! Your Message was Successfully Sent!",
           confirmButtonColor: "#2b3b2d",
           color: "#f8f8f8",
-          background: "#487c6c",
+          background: "#07afa4",
           padding: "20px 15px 40px 15px",
         });
       },
